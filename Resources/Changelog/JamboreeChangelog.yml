@@ -346,3 +346,11 @@ Entries:
         Borg.
   id: 45
   time: '2025-11-30T18:23:24.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Tweak
+      message: increased armor on jackboots and combat gloves to prevent delimbing
+    - type: Tweak
+      message: reduced combat glove price in the salvage vendor to 550
+  id: 46
+  time: '2025-12-06T21:02:36.0000000+00:00'
