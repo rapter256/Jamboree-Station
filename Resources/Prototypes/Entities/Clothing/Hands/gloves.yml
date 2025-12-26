@@ -420,10 +420,10 @@
     fiberMaterial: fibers-insulative
   - type: Armor # Goob
     modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
+      coefficients: # buffed so salv's limbs stop falling off
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
         Shock: 0.75
 
 # can't parent combat gloves since they are butcherable
