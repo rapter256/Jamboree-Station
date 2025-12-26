@@ -574,6 +574,16 @@
       settings: SyndieSoldierTeamLeader
 
 - type: entity
+  id: RandomHumanoidSyndieSoldierTeamLeaderInstigator
+  name: syndicate scout team leader ghost role
+  components:
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner_syndicate
+  - type: RandomHumanoidSpawner
+    settings: SyndieSoldierTeamLeaderInstigator
+
+- type: entity
   id: RandomHumanoidSyndieSoldier
   name: syndicate soldier ghost role
   components:
@@ -582,6 +592,16 @@
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieSoldier
+
+- type: entity
+  id: RandomHumanoidSyndieSoldierInstigator
+  name: syndicate scout ghost role
+  components:
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner_syndicate
+  - type: RandomHumanoidSpawner
+    settings: SyndieSoldierInstigator
 
 - type: entity
   id: RandomHumanoidSyndieVisitor

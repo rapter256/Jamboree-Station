@@ -803,6 +803,26 @@
       roleLoadout: [ RoleSurvivalSyndicate ]
 
 - type: randomHumanoidSettings
+  id: SyndieSoldierTeamLeaderInstigator
+  parent: EventHumanoid
+  components:
+  - type: NpcFactionMember
+    factions:
+    - Syndicate
+  - type: NukeOperative
+  - type: GhostRole
+    name: Syndicate Scout Team Leader
+    description: You are the team leader for a Syndicate operative taskforce sent to establish an outpost near the station.
+    rules: ghost-role-information-rules-team-antagonist
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
+    raffle:
+      settings: default
+  - type: Loadout
+    prototypes: [ SyndicateFootsoldierTeamLeaderGear ]
+    roleLoadout: [ RoleSurvivalSyndicate ]
+
+- type: randomHumanoidSettings
   id: SyndieSoldier
   parent: EventHumanoid
   components:
@@ -821,6 +841,26 @@
     - type: Loadout
       prototypes: [ SyndicateFootsoldierGear ]
       roleLoadout: [ RoleSurvivalSyndicate ]
+
+- type: randomHumanoidSettings
+  id: SyndieSoldierInstigator
+  parent: EventHumanoid
+  components:
+  - type: NpcFactionMember
+    factions:
+    - Syndicate
+  - type: NukeOperative
+  - type: GhostRole
+    name: Syndicate Scout
+    description: You are a scout sent by the syndicate to establish an outpost near the station.
+    rules: ghost-role-information-rules-team-antagonist
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
+    raffle:
+      settings: default
+  - type: Loadout
+    prototypes: [ SyndicateFootsoldierGear ]
+    roleLoadout: [ RoleSurvivalSyndicate ]
 
 - type: randomHumanoidSettings
   id: SyndieVisitor
