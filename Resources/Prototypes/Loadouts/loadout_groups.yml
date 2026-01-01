@@ -856,7 +856,6 @@
 - type: loadoutGroup
   id: ClownMask
   name: loadout-group-clown-mask
-  minLimit: 0
   loadouts:
   - ClownMask
   - ClownNose #imp
