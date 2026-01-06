@@ -242,7 +242,7 @@
   name: death-match-title
   description: death-match-description
   maxPlayers: 15
-  showInVote: true
+  showInVote: false # jamboree change, down with evil toolbox slop
   supportedMaps: DeathMatchMapPool
   rules:
     - DeathMatch31
