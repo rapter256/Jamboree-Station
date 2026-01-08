@@ -62,5 +62,3 @@ loadout-group-brigmedic-backpack = Brigmedic backpack
 loadout-group-security-melee = Security melee weapon
 
 loadout-group-animals = Animals
-
-loadout-group-hop-gloves = Head of Personnel gloves
