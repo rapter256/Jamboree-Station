@@ -168,31 +168,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryEngineering
 
-- type: loadout # funky
-  id: Electrician
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineeringElectrician
-
-- type: loadout # funky
-  id: EngiTanktop
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineeringTankTop
-
-- type: loadout # funky
-  id: EngiOveralls
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineeringOveralls
-
-- type: loadout # funky
-  id: EngiCoveralls
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineeringCoveralls
-
-- type: loadout # funky
-  id: EngiShirt
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineeringShirt
-
 # Back
 - type: loadout
   id: StationEngineerBackpack

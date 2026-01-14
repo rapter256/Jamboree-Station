@@ -92,6 +92,7 @@
     ClothingHandsAngelGloves: 1 #imp
     ClothingUniformJumpskirtAngelDress: 1 #imp
     ClothingShoesAngelSandals: 1 #imp
+    ClothingHeadHatStar: 2 #DV
     ClothingMaskJoy: 2
     ClothingHeadHatCardborg: 2
     ClothingOuterCardborg: 2
@@ -152,6 +153,9 @@
   contrabandInventory:
     ClothingHeadHatRichard: 1
     ClothingHeadScaryMask: 1 #funky
+    ClothingHeadHatPirateLuffy: 1 #frontier
+    ClothingUniformJumpsuitPirateLuffy: 1 #frontier
+    ClothingShoesBootsPirateLuffy: 1 #frontier
     ClothingShoesBling: 1
     ClothingShoesBootsCowboyFancy: 1
     ClothingOuterDogi: 1

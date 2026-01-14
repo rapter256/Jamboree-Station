@@ -117,11 +117,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanitor
 
-- type: loadout
-  id: CarpExterminator #funky
-  equipment:
-    jumpsuit: ClothingUniformCarpExterminator
-
 # Gloves
 - type: loadout
   id: JanitorRubberGloves

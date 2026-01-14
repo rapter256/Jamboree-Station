@@ -75,28 +75,11 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: loadoutEffectGroup
-  id: MasterChef #jamboree & funky
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobChef
-      time: 216000 #60 hrs
-
 # Head
 - type: loadout
   id: ChefHead
   equipment:
     head: ClothingHeadHatChef
-
-- type: loadout
-  id: MasterChefHead # funky
-  equipment:
-    head: ClothingHeadHatMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
 
 # Mask
 - type: loadout
@@ -115,14 +98,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtChef
 
-- type: loadout
-  id: MasterChefSuit #funky
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
-
 # Outer clothing
 - type: loadout
   id: ChefApron
@@ -138,20 +113,4 @@
   id: ChefWintercoat
   equipment:
     outerClothing: ClothingOuterWinterChef
-
-- type: loadout
-  id: MasterChefJacket #funky
-  equipment:
-    outerClothing: ClothingOuterJacketMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
-
-- type: loadout
-  id: MasterChefWintercoat #funky
-  equipment:
-    outerClothing: ClothingOuterWinterMasterChef
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterChef
 

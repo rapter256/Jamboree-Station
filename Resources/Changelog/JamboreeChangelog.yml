@@ -428,3 +428,17 @@ Entries:
       message: Removed deathmatch from the gamemode vote
   id: 54
   time: '2026-01-06T12:44:58.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Added several pieces of clothing from the Delta-V server! Check out your
+        local clothing vendors and the loadout menu to see all that has been
+        added!
+    - type: Add
+      message: >-
+        Added several pieces of clothing from the Frontier server! Check out
+        your loadout menu and local clothing vendors! There may or may not be a
+        secret cosmetic set in one of the vending machines ;)
+  id: 55
+  time: '2026-01-12T00:05:25.0000000+00:00'

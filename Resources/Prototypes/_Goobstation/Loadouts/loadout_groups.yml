@@ -536,10 +536,11 @@
 - type: loadoutGroup
   id: HoPGloves
   name: loadout-group-hop-gloves
-  minLimit: 1
+  minLimit: 0
   maxLimit: 1
   loadouts:
   - HoPGloves
+  - HoPInspectionGloves #DV
 
 # Centcomm Officer
 
@@ -899,6 +900,8 @@
   - NanotrasenRepresentativeBowler
   - NanotrasenRepresentativeOutlaw
   - NanotrasenRepresentativeMAA
+  - SRCap #frontier
+  - SRBeret #frontier
 
 - type: loadoutGroup
   id: NanotrasenRepresentativeNeck
@@ -906,6 +909,8 @@
   minLimit: 0
   loadouts:
   - ClothingNeckScarfStripedCentcom
+  - SRCloak #Frontier
+  - SRMantle #Frontier
 
 - type: loadoutGroup
   id: NanotrasenRepresentativeBackpack
@@ -917,12 +922,21 @@
   - NanotrasenRepresentativeMessenger
 
 - type: loadoutGroup
+  id: NanotrasenRepresentativeOuter #Jamboree
+  name: loadout-group-ntr-outer #jamboree
+  minLimit: 0
+  loadouts:
+  - SRCoat #frontier
+
+- type: loadoutGroup
   id: NanotrasenRepresentativeJumpsuit
   name: loadout-group-ntr-jumpsuit
   loadouts:
   - NanotrasenRepresentativeJumpsuit
   - NanotrasenRepresentativeJumpskirt
   - NanotrasenRepresentativeFancyJumpsuit
+  - SRJumpsuit #frontier
+  - SRJumpskirt #frontier
 
 - type: loadoutGroup
   id: NanotrasenRepresentativeBelt
@@ -1288,7 +1302,10 @@
   name: loadout-group-salvage-specialist-neck
   minLimit: 0
   loadouts:
+  - SalvagerCloak
+  - SalvagerMantle
   - MinerCloak
+
 
 # Chemist
 
@@ -1375,6 +1392,8 @@
   loadouts:
   - BrigmedicJumpsuit
   - BrigmedicJumpskirt
+  - CorpsSuit #DV
+  - CorpsSkirt #DV
 
 - type: loadoutGroup
   id: BrigmedicHead
@@ -1382,6 +1401,7 @@
   minLimit: 0
   loadouts:
   - BrigmedicBeret
+  - CorpsBeret #DV
   - CMOMedicalHeadMirror
   - SecurityBeret
   - SecurityHat
@@ -1392,6 +1412,7 @@
   name: loadout-group-brigmedic-outer
   loadouts:
   - BrigmedicAMG
+  - CorpsCoat #DV
   - ArmorVest
   - ArmorVestSlim
   - SecurityOfficerWintercoat

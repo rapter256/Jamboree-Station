@@ -115,11 +115,6 @@
   equipment:
     mask: ClothingMaskScaredMime
 
-- type: loadout
-  id: MimeMaskOdd #funky
-  equipment:
-    mask: ClothingMaskOddMime
-
 # Jumpsuit
 - type: loadout
   id: MimeJumpsuit

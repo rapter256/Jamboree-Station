@@ -1,0 +1,34 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleCJ
+  name: supreme lawyer's mantle #changed from chief justice's mantle (jamboree)
+  description: A fancy velvet mantle with fur trim, fitting for a judge.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Neck/Mantles/cjmantle.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Neck/Mantles/cjmantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleCentcom
+  name: central commander's mantle
+  description: A comfortable and elite green mantle with a nice gold trim, tailored specifically for to the Central Commander. There's a shiny red gemstone holding it together in the middle.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Neck/Mantles/centcommantle.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Neck/Mantles/centcommantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleSalvage
+  name: salvager's mantle
+  description: A salvager wears their scars with pride. Their attire is no different. #putting this here to see what is wrong with the PR, if anything
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Neck/Mantles/salvagemantle.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Neck/Mantles/salvagemantle.rsi
+
+#

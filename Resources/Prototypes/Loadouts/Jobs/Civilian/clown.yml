@@ -149,20 +149,3 @@
   id: ClownWintercoat
   equipment:
     outerClothing: ClothingOuterWinterClown
-
-# Masks
-# Funky
-- type: loadout
-  id: ClownDevil
-  equipment:
-    mask: ClothingMaskClownDevil
-
-- type: loadout
-  id: ClownGamble
-  equipment:
-    mask: ClothingMaskClownGamble
-
-- type: loadout
-  id: ClownJuggle
-  equipment:
-    mask: ClothingMaskClownJuggle

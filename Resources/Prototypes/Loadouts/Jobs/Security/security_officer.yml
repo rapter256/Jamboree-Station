@@ -266,3 +266,17 @@
   storage:
     back:
     - Dinkystar
+
+# masks, jamboree
+
+- type: loadout
+  id: RedGaiter
+  equipment:
+    mask: ClothingMaskNeckGaiterRed
+
+- type: loadout
+  id: Gaiter
+  equipment:
+    mask: ClothingMaskNeckGaiter
+
+

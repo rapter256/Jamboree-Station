@@ -43,11 +43,14 @@
     ClothingUniformJumpsuitMonasticRobeDark: 1
     ClothingUniformJumpsuitMonasticRobeLight: 1
     ClothingNeckStoleChaplain: 1
+    ClothingNeckScarfChaplainStoleOther: 1 #frontier
+    ClothingNeckCrucifix: 1 #frontier
     ClothingOuterHoodieChaplain: 1
     ClothingOuterHoodieBlack: 1
     ClothingHeadHatHoodNunHood: 1
     ClothingOuterNunRobe: 1
     ClothingHeadHatFez: 1
+    ClothingHeadHatKippah: 1 #frontier
     ClothingHeadHatPlaguedoctor: 1
     ClothingHeadHatWitch: 1
     ClothingHeadHatWitch1: 1
@@ -75,6 +78,16 @@
     ClothingOuterSilent: 1 #imp, moved out of contraband
     ClothingNeckChaplainDragon: 1 #imp
     ClothingUniformTech: 1 #imp
+    ClothingHeadTechPriest: 1 #Nyanotrasen
+    ClothingOuterRobeTechPriest: 1 #Nyanotrasen
+    ClothingHeadHatPilgrim: 1 #frontier
+    ClothingUniformJumpsuitChaplainPilgrimVest: 1 #frontier
+    ClothingHeadHatBishopMitre: 1 #frontier
+    ClothingOuterCoatBishop: 1 #frontier
+    ClothingHeadHatCardinal: 1 #frontier
+    ClothingOuterCoatCardinal: 1 #frontier
+    ClothingHeadHatWitchhunter: 1 #frontier
+    ClothingOuterCoatWitchHunter: 1 #frontier
     ClothingHeadsetService: 2
     BoxCandle: 2
     BoxCandleSmall: 2
@@ -98,3 +111,4 @@
     ClothingHeadHatHoodCulthood: 3
     ClothingShoesCult: 4
     BedsheetCult: 4
+

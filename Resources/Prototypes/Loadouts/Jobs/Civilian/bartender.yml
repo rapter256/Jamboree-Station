@@ -113,33 +113,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitBartenderPurple
 
-- type: loadout
-  id: NightclubJumpsuit #funky
-  equipment:
-    jumpsuit: ClothingUniformNightclubSuit
-
-- type: loadout
-  id: NightclubJumpskirt #funky
-  equipment:
-    jumpsuit: ClothingUniformNightclubSuitSkirt
-
-- type: loadout
-  id: SeniorBartenderSuit #funky
-  equipment:
-    jumpsuit: ClothingUniformSeniorBartender
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterBartender
-
-- type: loadout
-  id: SeniorBartenderSkirt #funky
-  equipment:
-    jumpsuit: ClothingUniformSeniorBartenderSkirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterBartender
-
-
 # Outer clothing
 - type: loadout
   id: BartenderApron

@@ -1,0 +1,131 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitHoPMess
+  name: head of personnel's mess kit
+  description: A swanky uniform with tasteful gold and red trim. Keep your latte away from this.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hopmesskit.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hopmesskit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBoatswain
+  name: boatswain's turtleneck
+  description: A comfortable rollneck and slacks. Suitable attire for a pipe-smoking bosun.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/boatswain.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/boatswain.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitLostTourist
+  name: lost tourist uniform
+  description: The uniform of those who just want to relax on a beach... Where is the beach anyway?
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/lost_tourist.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/lost_tourist.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJeansRed
+  name: red sweater with jeans
+  description: A red sweater with blue jeans. This one has the dominant jeans.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/jeans_red.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/jeans_red.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJeansGreen
+  name: green sweater with jeans
+  description: A green sweater with blue jeans. This one has the recessive jeans.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/jeans_green.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/jeans_green.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJeansBrown
+  name: brown sweater with jeans
+  description: A brown sweater with blue jeans.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/jeans_brown.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/jeans_brown.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformLittleGuyOveralls
+  name: little guy overalls
+  description: I'm just a little guy!
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi # DeltaV - Little-Guy-Ops
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitWaitstaffFormal
+  name: waitstaff suit
+  description: A sharp vest with comfortable slacks made for serving tables and looking professional.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/waitingsuit.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/waitingsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitWorkvest
+  name: work vest
+  description: A sturdy suspender vest over a rolled up workshirt, shorts, and a pair of blue leggings. For when you want to look good while you work.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/workvest.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/workvest.rsi
+
+- type: entity
+  parent: ClothingUniformBase #changed from rolledbase
+  id: ClothingUniformJumpsuitCorpsman #changed from brigmedic cause we have that role
+  name: corpsman's turtleneck
+  description: A comfortable and tight-fitting turtleneck for those with security and medical expertise. #changed description to remove mention of corpsman
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/corpsman.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/corpsman.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitKilt
+  name: kilt
+  description: A fine bit o' garb for the lad an' lasses.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/kilt.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/kilt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSecretary
+  name: secretary's jumpsuit
+  description: A suit worn by secretary personnel. Smells of burnt coffee.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/admin_assistant.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/admin_assistant.rsi
