@@ -95,16 +95,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtParamedic
 
-- type: loadout
-  id: ParamedicSpeedsuit #funky
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitParamedicSpeedsuit
-
-- type: loadout
-  id: ParamedicSpeedskirt #funky
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtParamedicSpeedskirt
-
 - type: loadout # goob
   id: ParamedMJ
   equipment:

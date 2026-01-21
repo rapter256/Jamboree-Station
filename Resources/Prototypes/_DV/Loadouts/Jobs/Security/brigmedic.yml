@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: loadout
+  id: CorpsSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCorpsman
+
+- type: loadout
+  id: CorpsSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCorpsman
+
+- type: loadout
+  id: CorpsBeret
+  equipment:
+    head: ClothingHeadHatBeretCorpsman
+
+- type: loadout
+  id: CorpsCoat
+  equipment:
+    outerClothing: ClothingOuterCoatStasecCorpsman

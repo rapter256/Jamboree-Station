@@ -1,0 +1,22 @@
+
+- type: entity
+  parent: ClothingNeckMantleHOP
+  id: ClothingNeckMantleSr
+  name: nanotrasen representative's frontiersman mantle #changed from station representative's mantle (jamboree)
+  description: This mantle protects the Nanotrasen representative's neck and shoulders from vicious papercuts. #changed from frontier description (jamboree)
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Neck/Mantles/sr.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Neck/Mantles/sr.rsi
+
+- type: entity
+  id: ClothingNeckMantleBH
+  name: "bounty hunter's mantle"
+  parent: ClothingNeckMantleHOS #changed to not be contra just cause it don't do nothin
+  description: "I can bring you in warm or I can bring you in cold. Or you can outbid the bounty."
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Neck/Mantles/bounty_hunter_mantle.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Neck/Mantles/bounty_hunter_mantle.rsi

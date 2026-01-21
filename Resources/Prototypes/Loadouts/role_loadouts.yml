@@ -147,6 +147,7 @@
   - GroupTankHarness
   - HoPHead
   - HoPNeck
+  - HoPGloves
   - HoPJumpsuit
   - HoPBackpack
   - HoPOuterClothing
@@ -160,7 +161,6 @@
   - HoPEnvirohelm
   - HoPEnvirosuit
   - HoPEnvirogloves
-  - HoPGloves
 # Silicons
 - type: roleLoadout
   id: JobBorg
@@ -219,7 +219,9 @@
   id: JobServiceWorker
   groups:
   - GroupTankHarness
-  - BartenderJumpsuit
+  - ServiceWorkerHead
+  - ServiceWorkerJumpsuit
+  - ServiceWorkerOuterClothing
   - CommonBackpack
   - Glasses
   - Survival
@@ -274,6 +276,7 @@
   id: JobLawyer
   groups:
   - GroupTankHarness
+  - LawyerHead
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
@@ -623,6 +626,7 @@
   id: JobHeadOfSecurity
   groups:
   - HeadofSecurityHead
+  - SecurityFace #jamboree
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
   - SecurityBackpack
@@ -646,6 +650,7 @@
   id: JobWarden
   groups:
   - WardenHead
+  - SecurityFace #jamboree
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityMelee # Goobstation
@@ -668,6 +673,7 @@
   id: JobSecurityOfficer
   groups:
   - SecurityHead
+  - SecurityFace #Jamboree
   - SecurityJumpsuit
   - SecurityBackpack
   - SecurityMelee # Goobstation

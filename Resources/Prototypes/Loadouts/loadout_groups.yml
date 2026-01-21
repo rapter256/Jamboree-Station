@@ -396,6 +396,7 @@
   minLimit: 0
   loadouts:
   - HoPHead
+  - HoPBeret # base game, but refound in DV files
 
 - type: loadoutGroup
   id: HoPJumpsuit
@@ -403,6 +404,9 @@
   loadouts:
   - HoPJumpsuit
   - HoPJumpskirt
+  - HoPMessSuit #DV
+  - HoPMessSkirt #DV
+  - HoPBoatswain #DV
   - HoPJumpsuitMilitary # goob
   - HoPSummerShirt # goob
   - HoPPowerSuit #imp
@@ -465,27 +469,49 @@
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
+  - GreyTurtleneck #DV
+  - GreyTurtleneckSkirt #DV
  # Jamboree changes start
   - WhiteJumpsuit
   - WhiteJumpskirt
+  - WhiteTurtleneck #DV
+  - WhiteTurtleneckSkirt #DV
   - BlackJumpsuit
   - BlackJumpskirt
+  - BlackTurtleneck #DV
+  - BlackTurtleneckSkirt #DV
   - RedJumpsuit
   - RedJumpskirt
+  - RedTurtleneck #DV
+  - RedTurtleneckSkirt #DV
   - BlueJumpsuit
   - BlueJumpskirt
+  - BlueTurtleneck #DV
+  - BlueTurtleneckSkirt
   - YellowJumpsuit
   - YellowJumpskirt
+  - YellowTurtleneck #DV
+  - YellowTurtleneckSkirt #DV
   - GreenJumpsuit
   - GreenJumpskirt
+  - GreenTurtleneck #DV
+  - GreenTurtleneckSkirt #DV
   - OrangeJumpsuit
   - OrangeJumpskirt
+  - OrangeTurtleneck #DV
+  - OrangeTurtleneckSkirt #DV
   - PurpleJumpsuit
   - PurpleJumpskirt
+  - PurpleTurtleneck #DV
+  - PurpleTurtleneckSkirt #DV
   - PinkJumpsuit
   - PinkJumpskirt
+  - PinkTurtleneck #DV
+  - PinkTurtleneckSkirt #DV
   - TealJumpsuit
   - TealJumpskirt
+  - TealTurtleneck #DV
+  - TealTurtleneckSkirt #DV
   - BlackElegantDress
   - RedElegantDress
   - GreenElegantDress
@@ -507,6 +533,15 @@
   - CossackSuit
   - Loungewear
   - PirateSlops
+  # DV change
+  - JeansRed
+  - JeansGreen
+  - JeansBrown
+  - LostTourist
+  - LilGuyOveralls
+  - Kilt
+  # Nyanotrasen
+  - RatKingShirt
  # Impstation changes begin
   - SailorSuit
   - CavemanHides
@@ -534,6 +569,7 @@
   minLimit: 0
   loadouts:
   - PassengerFace
+  - BalaclavaBlack #frontier
 
 - type: loadoutGroup
   id: PassengerGloves
@@ -588,6 +624,8 @@
   #jamboree
   - BomberJacket
   - PirateJacket
+  - DusterCoat #DV
+  - NavalCoat #DV
 
 - type: loadoutGroup
   id: PassengerShoes
@@ -603,6 +641,41 @@
   - OrangeShoes
   - PurpleShoes
   - WinterBoots
+
+- type: loadoutGroup
+  id: ServiceWorkerHead
+  name: loadout-group-serviceworker-head
+  minLimit: 0
+  loadouts:
+  - GreenHat #jamboree
+  - CorpoHat #jamboree
+  - BartenderHead
+  - BartenderBowler
+  - SecretaryHead #DV
+  - Bellhop #nyanotrasen
+
+- type: loadoutGroup
+  id: ServiceWorkerJumpsuit
+  name: loadout-group-serviceworker-jumpsuit
+  loadouts:
+  - GreenJumpsuit #jamboree
+  - GreenJumpskirt #jamboree
+  - ValetSuit #frontier
+  - ValetSkirt #frontier
+  - SecretarySuit #DV
+  - SecretarySkirt #DV
+  - WaiterSuit #DV
+  - WaiterSkirt #DV
+  - WorkVest #DV
+  - ServiceMJ # goob
+
+- type: loadoutGroup
+  id: ServiceWorkerOuterClothing
+  name: loadout-group-serviceworker-outerclothing
+  minLimit: 0
+  loadouts:
+  - CorpoJacket #jamboree
+  - ValetVest #nyanotrasen
 
 - type: loadoutGroup
   id: BartenderHead
@@ -690,6 +763,15 @@
   - ServiceMJ # goob
 
 - type: loadoutGroup
+  id: LawyerHead
+  name: loadout-group-lawyer-head
+  minLimit: 0
+  loadouts:
+  - BartenderHead
+  - BartenderBowler
+  - SupremeLawyerHead #DV
+
+- type: loadoutGroup
   id: LawyerJumpsuit
   name: loadout-group-lawyer-jumpsuit
   loadouts:
@@ -703,6 +785,8 @@
   - LawyerJumpskirtRed
   - LawyerJumpsuitGood
   - LawyerJumpskirtGood
+  - GalaxyRed #nyanotrasen
+  - GalaxyBlue #nyanotrasen
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -711,6 +795,8 @@
   minLimit: 0
   loadouts:
   - LawyerNeck
+  - LawyerCloak #DV
+  - LawyerMantle #DV
 
 - type: loadoutGroup
   id: ChaplainHead
@@ -727,6 +813,12 @@
   - ChaplainHeadTidal #imp
   - ChaplainHeadSun #imp
   - ChaplainHeadVeil #imp
+  - TechPriest #nyanotrasen
+  - PilgrimHead #frontier
+  - BishopMitre #frontier
+  - CardinalHat #frontier
+  - WitchHunterHat #frontier
+  - Kippah #frontier
 
 - type: loadoutGroup
   id: ChaplainEyes
@@ -759,6 +851,7 @@
   - ChaplainSkirtTidal #imp
   - ChaplainUniformSun #imp
   - ChaplainUniformTech #imp
+  - PilgrimJumpsuit #frontier
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -772,6 +865,10 @@
   - ChaplainHoodie
   - ChaplainOuterMoon #imp
   - ChaplainOuterSilent #imp
+  - TechPriestSuit #nyanotrasen
+  - ChaplainBishopRobe #frontier
+  - ChaplainCardinalRobe #frontier
+  - ChaplainWitchHunterRobe #frontier
 
 - type: loadoutGroup
   id: ChaplainNeck
@@ -779,12 +876,14 @@
   minLimit: 0
   loadouts:
   - ChaplainNeck
+  - ChaplainNeckFrontier #frontier
   - ChaplainNeckClayshaper #imp
   - ChaplainNeckDruid #imp
   - ChaplainNeckDruidMantle #imp
   - ChaplainNeckTidal #imp
   - ChaplainNeckSun #imp
   - ChaplainNeckDragon #imp
+  - Crucifix #frontier
 
 - type: loadoutGroup
   id: ChaplainShoes #jamboree
@@ -883,9 +982,10 @@
 
 - type: loadoutGroup
   id: ClownMask
-  name: loadout-group-clown-mask
+  name: loadout-group-clown-mask #jamboree
   loadouts:
   - ClownMask
+  - BaldClownMask #frontier
   - ClownDevil #funky
   - ClownGamble #funky
   - ClownJuggle #funky
@@ -1106,7 +1206,8 @@
   loadouts:
   - QuartermasterHead
   - QuartermasterBeret
-  - QuartermasterTopHat
+  - QuartermasterTopHat #funky
+  - McCrown #frontier
 
 - type: loadoutGroup
   id: QuartermasterJumpsuit
@@ -1381,6 +1482,7 @@
   minLimit: 0
   loadouts:
   - ResearchDirectorBeret
+  - MuffinHat #DV/nyanotrasen
 
 - type: loadoutGroup
   id: ResearchDirectorNeck
@@ -1389,6 +1491,7 @@
   loadouts:
   - ResearchDirectorMantle
   - ResearchDirectorCloak
+  - MystaCloak #DV
 
 - type: loadoutGroup
   id: ResearchDirectorJumpsuit
@@ -1508,6 +1611,7 @@
   - HeadofSecurityHead
   - HeadofSecurityBeret
   - HeadofSecuritySpecialBeret # Goobstation
+  - HoSCowboy #Delta V
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -1573,6 +1677,16 @@
   - SecurityBeret
   - SecurityHat
   - TrooperHat
+  - PrisonGuardHat #DV/nyanotrasen
+
+- type: loadoutGroup
+  id: SecurityFace
+  name: loadout-group-security-face #jamboree
+  minLimit: 0
+  loadouts:
+  - BalaclavaBlack #frontier
+  - Gaiter #jamboree
+  - RedGaiter #jamboree
 
 - type: loadoutGroup
   id: SecurityJumpsuit
@@ -1585,6 +1699,12 @@
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
   - TrooperUniform
+  - PrisonGuardJumpsuit #DV/nyanotrasen
+  - PrisonGuardJumpskirt #DV/nyanotrasen
+  - FrontierSecJumpsuit #frontier
+  - FrontierSecJumpskirt #frontier
+  - PrivateSecJumpsuit #frontier
+  - PrivateSecJumpskirt #frontier
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1660,6 +1780,7 @@
   - DetectiveArmorVest
   - DetectiveCoat
   - DetectiveCoatGrey
+  - DetectiveCoatPlate #DV
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit

@@ -108,6 +108,9 @@
     ClothingUniformJumpskirtCasualRed: 2
     ClothingUniformJumpsuitCasualGreen: 2
     ClothingUniformJumpskirtCasualGreen: 2
+    ClothingUniformJumpsuitJeansRed: 2 #DV
+    ClothingUniformJumpsuitJeansGreen: 2 #DV
+    ClothingUniformJumpsuitJeansBrown: 2 #DV
     # DO NOT ADD MORE, USE UNIFORM DYING
     ClothingShoesColorBlack: 8
     ClothingShoesHeelsBlack: 4 #imp
@@ -131,10 +134,16 @@
     ClothingHeadHatBlacksoft: 2
     ClothingHeadHatPurplesoft: 2
     ClothingHeadHatCorpsoft: 2
+    ClothingOuterCorporateJacket: 2 #DV
     ClothingHeadFishCap: 2
+    ClothingMaskBalaclavaBlack: 4 #DV
     ClothingHeadRastaHat: 2
     ClothingHeadPropellerHat: 2
+    ClothingUniformLittleGuyOveralls: 2 #DV
+    ClothingUniformJumpsuitKilt: 2 #DV
     ClothingBeltStorageWaistbag: 3
+    ClothingOuterCoatNavalCoat: 2 #DV
+    ClothingOuterDusterCoat: 2 #DV
     ClothingEyesGlasses: 6
     ClothingHandsGlovesColorBlack: 4
     ClothingHandsGlovesColorGray: 4

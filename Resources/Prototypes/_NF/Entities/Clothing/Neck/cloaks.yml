@@ -1,0 +1,9 @@
+- type: entity
+  parent: ClothingNeckCloakHop
+  id: ClothingNeckCloakSr
+  name: nanotrasen representative's frontiersman cloak #changed from station representative's cloak (jamboree)
+  description: A top of the line cloak for a Nanotrasen representative who has braved the final frontier. Made from exquisite fibers and furs, this thing must have cost a fortune!
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Neck/Cloaks/sr.rsi
+

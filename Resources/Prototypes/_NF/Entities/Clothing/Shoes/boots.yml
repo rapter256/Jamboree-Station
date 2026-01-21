@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsPirateLuffy
+  name: suspicious pirate sandals
+  description: A rather suspicious looking set of pirate sandals.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Shoes/Boots/pirate_luffy.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Shoes/Boots/pirate_luffy.rsi
+  - type: Matchbox
