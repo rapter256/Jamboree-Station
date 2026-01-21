@@ -442,3 +442,49 @@ Entries:
         secret cosmetic set in one of the vending machines ;)
   id: 55
   time: '2026-01-12T00:05:25.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Remove
+      message: Removed BSO from atlas, amber, and bagel
+    - type: Tweak
+      message: Reworked NTR offices on atlas amber and bagel
+    - type: Add
+      message: Added NTR spawns to atlas amber and bagel
+  id: 56
+  time: '2026-01-15T04:33:44.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Changed multiple mentions of Space Law to Legal Mandate as to avoid
+        confusion on in game rules. Check out the guidebook for details!
+    - type: Tweak
+      message: >-
+        Changed the Space Law guidebook into the Legal Mandate guidebook! The
+        sprite is also different!
+  id: 57
+  time: '2026-01-15T04:35:09.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Hooliganism, if repeated, can now result in the violator being held for
+        as long as is needed. The hooligans had it coming!
+    - type: Tweak
+      message: >-
+        Hooliganism is now its own violation and no longer a line in Vandalism,
+        as it was meant to be!
+    - type: Tweak
+      message: >-
+        CMO's can now use and create narcotics/poisons outside of medbay!
+        DRUGS!!!!!!
+    - type: Tweak
+      message: >-
+        CMO's now have a proper section in the Violations, Punishments, and
+        Varieties section for writing chemical permits!
+    - type: Tweak
+      message: >-
+        Roles with round start narcotics/stimulants are no longer viable to
+        arrest! Now security stims are legal!
+  id: 58
+  time: '2026-01-21T06:27:25.0000000+00:00'
