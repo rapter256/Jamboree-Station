@@ -43,7 +43,6 @@ public sealed partial class GhostGui : UIWidget
     private float _minTimeToRespawn;
 
     public GhostTargetWindow TargetWindow { get; }
-    public _Shitcode.UserInterface.Systems.Ghost.Controls.GhostBarRulesWindow GhostBarWindow { get; }
     public GhostRespawnRulesWindow RulesWindow { get; }
 
     public event Action? GhostRespawnPressed;
@@ -67,7 +66,6 @@ public sealed partial class GhostGui : UIWidget
         ReturnToBodyButton.OnPressed += _ => ReturnToBodyPressed?.Invoke();
         GhostRolesButton.OnPressed += _ => GhostRolesPressed?.Invoke();
         GhostRolesButton.OnPressed += _ => GhostRolesButton.StyleClasses.Remove(StyleBase.ButtonCaution);
-        GhostBarButton.OnPressed += _ => GhostBarPressed?.Invoke(); // Goobstation - Ghost Bar
         GhostRespawnButton.OnPressed += _ => RulesWindow.OpenCentered();
     }
 
