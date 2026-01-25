@@ -536,3 +536,11 @@ Entries:
       message: Removed BSO from barratry, box and chloris
   id: 61
   time: '2026-01-23T03:02:48.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to cluster, delta, and fland
+    - type: Remove
+      message: Removed BSO from cluster, delta, and fland
+  id: 62
+  time: '2026-01-25T20:19:46.0000000+00:00'
