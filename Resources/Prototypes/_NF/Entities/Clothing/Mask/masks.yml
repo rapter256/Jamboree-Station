@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingMaskClown
+  id: ClothingMaskClownBald
+  name: bald clown mask #changed from just clown mask
+  description: If clowning doesn't work out, maybe you can rob a bank.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Mask/clown_bald.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Mask/clown_bald.rsi

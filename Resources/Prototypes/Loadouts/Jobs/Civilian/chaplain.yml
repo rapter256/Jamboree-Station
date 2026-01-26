@@ -163,3 +163,15 @@
   id: ChaplainHoodie
   equipment:
     outerClothing: ClothingOuterHoodieChaplain
+
+#shoes
+
+- type: loadout
+  id: ClothFootWraps
+  equipment:
+    shoes: ClothingShoesClothwrap #NF
+
+- type: loadout
+  id: SandalShoe
+  equipment:
+    shoes: ClothingShoesSandals #goob

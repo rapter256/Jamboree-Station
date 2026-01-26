@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeTechPriest
+  name: automaturge robe
+  description: Robots are basically bulls when you think about it, so best to wear red.
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Clothing/OuterClothing/Robes/techpriest.rsi
+  - type: Clothing
+    sprite: Nyanotrasen/Clothing/OuterClothing/Robes/techpriest.rsi
+  - type: TemperatureProtection
+    coolingCoefficient: 0.2

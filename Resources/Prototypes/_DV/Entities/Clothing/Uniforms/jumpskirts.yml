@@ -1,0 +1,55 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtHoPMess
+  name: head of personnel's mess kit
+  description: A swanky uniform with tasteful gold and red trim. Keep your latte away from this.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hopmesskit.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hopmesskit.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtWaitstaffFormal
+  name: waitstaff skirt
+  description: A sharp vest with a pencil skirt made for serving tables and looking professional.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/waitingskirt.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/waitingskirt.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase #changed from rolledbase
+  id: ClothingUniformJumpskirtCorpsman #changed from brigmedic cause we have that role
+  name: corpsman's jumpskirt
+  description: A comfortable and tight-fitting turtleneck for those with security and medical expertise. #changed description to remove mention of corpsman
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/corpsman.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/corpsman.rsi
+
+# Prison Guard Jumpskirt
+
+- type: entity
+  parent: ClothingUniformJumpsuitPrisonGuard
+  id: ClothingUniformJumpskirtPrisonGuard
+  name: prison guard's jumpskirt
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/prisonguard.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/prisonguard.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtSecretary
+  name: secretary's jumpskirt
+  description: A suit worn by secretary personnel. Smells of burnt coffee.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/admin_assistant.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/admin_assistant.rsi

@@ -74,12 +74,12 @@
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Head
 - type: loadout
   id: ChefHead
   equipment:
     head: ClothingHeadHatChef
-
 
 # Mask
 - type: loadout
@@ -93,12 +93,10 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitChef
 
-
 - type: loadout
   id: ChefJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtChef
-
 
 # Outer clothing
 - type: loadout
@@ -115,3 +113,4 @@
   id: ChefWintercoat
   equipment:
     outerClothing: ClothingOuterWinterChef
+

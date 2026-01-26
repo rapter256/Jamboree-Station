@@ -144,7 +144,6 @@
   equipment:
     head: ClothingHeadHatBeretHoS
 
-
 # Neck
 - type: loadout
   id: HeadofSecurityCloak

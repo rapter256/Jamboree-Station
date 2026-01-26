@@ -54,7 +54,9 @@
     ClothingUniformJumpsuitDetectiveGrey: 2
     ClothingUniformJumpskirtDetectiveGrey: 2
     ClothingOuterVestDetective: 2
+    ClothingOuterCoatDetPlated: 1 #DV
     ClothingNeckTieDet: 2
+    ClothingHeadDeerstalker: 1 #imp
     ClothingHeadHatFedoraGrey: 2
     ClothingHandsGlovesColorBlack: 2
     ClothingHandsGlovesLatex: 2

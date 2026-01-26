@@ -74,7 +74,8 @@ figurines-captain-6 = The disk was in my bag last I checked.
 figurines-captain-7 = The chain of command starts and ends with me.
 figurines-captain-8 = It's hard being at the top.
 
-figurines-hos-1 = Space law? What?
+figurines-hos-1 = Legal Mandate? What? 
+# jamboree uses LM
 figurines-hos-2 = Shoot the clown.
 figurines-hos-3 = Yes, I shot the clown. No, I don't regret it.
 figurines-hos-4 = Clown is now KOS.
@@ -98,7 +99,8 @@ figurines-security-2 = You have violated article 1984.
 figurines-security-3 = Whenever I get bored I use the clown as target practice.
 figurines-security-4 = You have two rights: to remain silent and to cry about it.
 figurines-security-5 = Harmbaton? It sure as hell harms!
-figurines-security-6 = Space law? Never heard of it.
+figurines-security-6 = Legal Mandate? Never heard of it.
+# jamboree uses LM
 figurines-security-7 = Random search! Hand it over.
 figurines-security-8 = I love donuts.
 figurines-security-9 = Greytide this, motherfucker.
@@ -107,7 +109,8 @@ figurines-security-10 = Do not resist.
 figurines-lawyer-1 = Better Call Saul!
 figurines-lawyer-2 = Objection!
 figurines-lawyer-3 = Did you know that you have rights?
-figurines-lawyer-4 = Space law says!
+figurines-lawyer-4 = Legal Mandate says!
+# jamboree uses LM
 figurines-lawyer-5 = Sign the contract first.
 
 figurines-cargotech-1 = DRAGON ON ATS!

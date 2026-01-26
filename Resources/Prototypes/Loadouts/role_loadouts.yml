@@ -124,11 +124,13 @@
   id: JobCaptain
   groups:
   - CaptainHead
+  - CaptainGlasses #Jamboree - More glasses in the future?
   - CaptainNeck
   - CaptainJumpsuit
   - CaptainMask # Goobstation - Lollypops!
   - CaptainBackpack
   - CaptainOuterClothing
+  - CaptainGloves
   - Survival
   - Trinkets
   - Animals
@@ -138,7 +140,6 @@
   - CaptainEnvirohelm
   - CaptainEnvirosuit
   - CaptainEnvirogloves
-  - CaptainGloves
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -146,6 +147,7 @@
   - GroupTankHarness
   - HoPHead
   - HoPNeck
+  - HoPGloves
   - HoPJumpsuit
   - HoPBackpack
   - HoPOuterClothing
@@ -159,7 +161,6 @@
   - HoPEnvirohelm
   - HoPEnvirosuit
   - HoPEnvirogloves
-  - HoPGloves
 # Silicons
 - type: roleLoadout
   id: JobBorg
@@ -176,6 +177,7 @@
   id: JobPassenger
   groups:
   - GroupTankHarness
+  - PassengerHead
   - PassengerJumpsuit
   - CommonBackpack
   - PassengerNeck
@@ -217,7 +219,9 @@
   id: JobServiceWorker
   groups:
   - GroupTankHarness
-  - BartenderJumpsuit
+  - ServiceWorkerHead
+  - ServiceWorkerJumpsuit
+  - ServiceWorkerOuterClothing
   - CommonBackpack
   - Glasses
   - Survival
@@ -254,6 +258,7 @@
   id: JobLibrarian
   groups:
   - GroupTankHarness
+  - LibrarianHead
   - LibrarianJumpsuit
   - CommonBackpack
   - Glasses
@@ -271,6 +276,7 @@
   id: JobLawyer
   groups:
   - GroupTankHarness
+  - LawyerHead
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
@@ -290,11 +296,13 @@
   groups:
   - GroupTankHarness
   - ChaplainHead
+  - ChaplainEyes
   - ChaplainMask
   - ChaplainNeck
   - ChaplainJumpsuit
   - CommonBackpack
   - ChaplainOuterClothing
+  - ChaplainShoes #jamboree
   - Glasses
   - Survival
   - Trinkets
@@ -352,6 +360,8 @@
   groups:
   - GroupTankHarness
   - ClownHead
+  - ClownMask
+  - ClownNeck
   - ClownJumpsuit
   - ClownBackpack
   - ClownOuterClothing
@@ -392,9 +402,13 @@
   id: JobMusician
   groups:
   - GroupTankHarness
+  - MusicianHead
+  - MusicianNeck
   - MusicianJumpsuit
+  - MusicianGloves
   - CommonBackpack
   - MusicianOuterClothing
+  - MusicianShoes
   - Glasses
   - Survival
   - Trinkets
@@ -612,6 +626,7 @@
   id: JobHeadOfSecurity
   groups:
   - HeadofSecurityHead
+  - SecurityFace #jamboree
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
   - SecurityBackpack
@@ -635,6 +650,7 @@
   id: JobWarden
   groups:
   - WardenHead
+  - SecurityFace #jamboree
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityMelee # Goobstation
@@ -657,6 +673,7 @@
   id: JobSecurityOfficer
   groups:
   - SecurityHead
+  - SecurityFace #Jamboree
   - SecurityJumpsuit
   - SecurityBackpack
   - SecurityMelee # Goobstation

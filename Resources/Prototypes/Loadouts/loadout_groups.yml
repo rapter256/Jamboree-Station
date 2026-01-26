@@ -122,9 +122,11 @@
 # SPDX-FileCopyrightText: 2024 to4no_fix <156101927+chavonadelal@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 voidnull000 <18663194+voidnull000@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Арт <123451459+JustArt1m@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 10KE <151458027+10kee@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 96flo <163569033+96flo@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Armok <155400926+ARMOKS@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 AstroDogeDX <48888500+AstroDogeDX@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Avalon <jfbentley1@gmail.com>
 # SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
@@ -184,6 +186,7 @@
   - PlushieSpaceLizard
   - PersonalAI # Goobstation
   - GoldenPersonalAI # Goobstation
+  - CrewCassette # Goobstation
   - ThreeCandles
   - Lighter
   - CigPackGreen
@@ -209,6 +212,16 @@
   - ClothingNeckGenderfluidPin
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
+  - ClothingNeckCloakAce
+  - ClothingNeckCloakAro
+  - ClothingNeckCloakAroace
+  - ClothingNeckCloakBi
+  - ClothingNeckCloakGay
+  - ClothingNeckCloakIntersex
+  - ClothingNeckCloakLesbian
+  - ClothingNeckCloakPan
+  - ClothingNeckCloakEnby
+  - ClothingNeckCloakTrans
   - CardBoxBlack # GoobStation
   - CardBoxNanotrasen # GoobStation
   - FoodSnackLollypopWrapped # Goobstation
@@ -317,6 +330,17 @@
   loadouts:
   - CaptainHead
   - CaptainCap
+  - CaptainBeret
+  - CaptainCrusherCap
+  - CaptainTricorne
+
+- type: loadoutGroup
+  id: CaptainGlasses
+  name: loadout-group-captain-glasses
+  loadouts:
+  - CaptainSunglasses
+  - CaptainVisor
+  - CaptainEyepatch
 
 - type: loadoutGroup
   id: CaptainJumpsuit
@@ -337,6 +361,9 @@
   - CaptainCloak
   - CaptainCloakFormal
   - CaptainMantle
+  - VeteranCaptainCloak # goob
+  - CaptainGreatcoat # imp
+  - CaptainAdmiralCloak # imp
 
 - type: loadoutGroup
   id: CaptainBackpack
@@ -354,6 +381,14 @@
   - CaptainOuterClothing
   - CaptainWintercoat
   - CaptainJacket # Goobstation
+  - CaptainRepeller # imp
+
+- type: loadoutGroup
+  id: CaptainGloves
+  name: loadout-group-captain-gloves
+  loadouts:
+  - CaptainGloves
+  - CaptainFlightGloves #imp
 
 - type: loadoutGroup
   id: HoPHead
@@ -361,6 +396,7 @@
   minLimit: 0
   loadouts:
   - HoPHead
+  - HoPBeret # base game, but refound in DV files
 
 - type: loadoutGroup
   id: HoPJumpsuit
@@ -368,8 +404,12 @@
   loadouts:
   - HoPJumpsuit
   - HoPJumpskirt
+  - HoPMessSuit #DV
+  - HoPMessSkirt #DV
+  - HoPBoatswain #DV
   - HoPJumpsuitMilitary # goob
   - HoPSummerShirt # goob
+  - HoPPowerSuit #imp
 
 - type: loadoutGroup
   id: HoPNeck
@@ -399,14 +439,112 @@
 
 # Civilian
 - type: loadoutGroup
+  id: PassengerHead #Jamboree
+  name: loadout-group-passenger-head
+  minLimit: 0
+  loadouts:
+  - GreyHat # Jamboree
+  - BlackHat # Jamboree
+  - RedHat # Jamboree
+  - BlueHat # Jamboree
+  - YellowHat #Jamboree
+  - GreenHat #Jambo (i am just gonna do jambo from now on as i am typing these out cause lazy lmao)
+  - OrangeHat #jambo
+  - BlackBand #jambo
+  - RedBand #jambo
+  - BlueBand #jambo
+  - GreenBand #jambo
+  - CorpoHat #jambo
+  - FishHat #jambo
+  - RastaHat #jambo
+  - PropellerHat #jambo
+  - BartenderHead # Jamboree
+  - BartenderBowler # Jamboree
+  - PirateHat #Jamboree
+  - SailorCap #Impstation
+
+- type: loadoutGroup
   id: PassengerJumpsuit
   name: loadout-group-passenger-jumpsuit
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
+  - GreyTurtleneck #DV
+  - GreyTurtleneckSkirt #DV
+ # Jamboree changes start
+  - WhiteJumpsuit
+  - WhiteJumpskirt
+  - WhiteTurtleneck #DV
+  - WhiteTurtleneckSkirt #DV
+  - BlackJumpsuit
+  - BlackJumpskirt
+  - BlackTurtleneck #DV
+  - BlackTurtleneckSkirt #DV
+  - RedJumpsuit
+  - RedJumpskirt
+  - RedTurtleneck #DV
+  - RedTurtleneckSkirt #DV
+  - BlueJumpsuit
+  - BlueJumpskirt
+  - BlueTurtleneck #DV
+  - BlueTurtleneckSkirt
+  - YellowJumpsuit
+  - YellowJumpskirt
+  - YellowTurtleneck #DV
+  - YellowTurtleneckSkirt #DV
+  - GreenJumpsuit
+  - GreenJumpskirt
+  - GreenTurtleneck #DV
+  - GreenTurtleneckSkirt #DV
+  - OrangeJumpsuit
+  - OrangeJumpskirt
+  - OrangeTurtleneck #DV
+  - OrangeTurtleneckSkirt #DV
+  - PurpleJumpsuit
+  - PurpleJumpskirt
+  - PurpleTurtleneck #DV
+  - PurpleTurtleneckSkirt #DV
+  - PinkJumpsuit
+  - PinkJumpskirt
+  - PinkTurtleneck #DV
+  - PinkTurtleneckSkirt #DV
+  - TealJumpsuit
+  - TealJumpskirt
+  - TealTurtleneck #DV
+  - TealTurtleneckSkirt #DV
+  - BlackElegantDress
+  - RedElegantDress
+  - GreenElegantDress
+  - BlueElegantDress
+  - PurpleElegantDress
+  - RedStripedDress
+  - GreenStripedDress
+  - CyanStripedDress
+  - PinkStripedDress
+  - OrangeStripedDress
+# Jamboree Jumpsuit changes stop prt1
   - AncientJumpsuit
+  # jamboree change
+  - FlannelJumpsuit
+  # jamboree end
   - RainbowJumpsuit
   - RainbowJumpskirt
+  # jamboree change
+  - CossackSuit
+  - Loungewear
+  - PirateSlops
+  # DV change
+  - JeansRed
+  - JeansGreen
+  - JeansBrown
+  - LostTourist
+  - LilGuyOveralls
+  - Kilt
+  # Nyanotrasen
+  - RatKingShirt
+ # Impstation changes begin
+  - SailorSuit
+  - CavemanHides
  # goob changes start
   - GreyMJ
   - BlackMJ
@@ -431,6 +569,7 @@
   minLimit: 0
   loadouts:
   - PassengerFace
+  - BalaclavaBlack #frontier
 
 - type: loadoutGroup
   id: PassengerGloves
@@ -438,6 +577,17 @@
   minLimit: 0
   loadouts:
   - PassengerGloves
+  # jamboree gloves add
+  - GreyGloves
+  - WhiteGloves
+  - BlackGloves
+  - BrownGloves
+  - RedGloves
+  - BlueGloves
+  - GreenGloves
+  - OrangeGloves
+  - PurpleGloves
+  - TealGloves
 
 - type: loadoutGroup
   id: CommonBackpack
@@ -455,6 +605,15 @@
   loadouts:
   - Mantle
   - OldNeckWrap # EE
+  # jamboree
+  - BrownScarf
+  - BlackScarf
+  - RedScarf
+  - BlueScarf
+  - GreenScarf
+  - OrangeScarf
+  - PurpleScarf
+  - SailorAscot # Impstation
 
 - type: loadoutGroup
   id: PassengerOuterClothing
@@ -462,13 +621,61 @@
   minLimit: 0
   loadouts:
   - PassengerWintercoat
+  #jamboree
+  - BomberJacket
+  - PirateJacket
+  - DusterCoat #DV
+  - NavalCoat #DV
 
 - type: loadoutGroup
   id: PassengerShoes
   name: loadout-group-passenger-shoes
   loadouts:
   - BlackShoes
+  - BrownShoes
+  - WhiteShoes
+  - RedShoes
+  - BlueShoes
+  - YellowShoes
+  - GreenShoes
+  - OrangeShoes
+  - PurpleShoes
   - WinterBoots
+
+- type: loadoutGroup
+  id: ServiceWorkerHead
+  name: loadout-group-serviceworker-head
+  minLimit: 0
+  loadouts:
+  - GreenHat #jamboree
+  - CorpoHat #jamboree
+  - BartenderHead
+  - BartenderBowler
+  - SecretaryHead #DV
+  - Bellhop #nyanotrasen
+
+- type: loadoutGroup
+  id: ServiceWorkerJumpsuit
+  name: loadout-group-serviceworker-jumpsuit
+  loadouts:
+  - GreenJumpsuit #jamboree
+  - GreenJumpskirt #jamboree
+  - ValetSuit #frontier
+  - ValetSkirt #frontier
+  - SecretarySuit #DV
+  - SecretarySkirt #DV
+  - WaiterSuit #DV
+  - WaiterSkirt #DV
+  - WorkVest #DV
+  - ServiceMJ # goob
+
+- type: loadoutGroup
+  id: ServiceWorkerOuterClothing
+  name: loadout-group-serviceworker-outerclothing
+  minLimit: 0
+  loadouts:
+  - CorpoJacket #jamboree
+  - ValetVest #nyanotrasen
 
 - type: loadoutGroup
   id: BartenderHead
@@ -485,6 +692,10 @@
   - BartenderJumpsuit
   - BartenderJumpskirt
   - BartenderJumpsuitPurple
+  - NightclubJumpsuit #funky
+  - NightclubJumpskirt #funky
+  - SeniorBartenderSuit #funky
+  - SeniorBartenderSkirt #funky
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -502,6 +713,7 @@
   minLimit: 0
   loadouts:
   - ChefHead
+  - MasterChefHead #funky
 
 - type: loadoutGroup
   id: ChefMask
@@ -516,6 +728,7 @@
   loadouts:
   - ChefJumpsuit
   - ChefJumpskirt
+  - MasterChefSuit #funky
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -526,6 +739,18 @@
   - ChefApron
   - ChefJacket
   - ChefWintercoat
+  - MasterChefJacket #funky
+  - MasterChefWintercoat #funky
+
+- type: loadoutGroup
+  id: LibrarianHead
+  name: loadout-group-librarian-head
+  minLimit: 0
+  loadouts:
+  - BartenderHead #Jamboree
+  - BartenderBowler #Jamboree
+  - LibrarianBrown #Jamboree
+  - LibrarianGrey #Jamboree
 
 - type: loadoutGroup
   id: LibrarianJumpsuit
@@ -536,6 +761,15 @@
   - CuratorJumpsuit
   - CuratorJumpskirt
   - ServiceMJ # goob
+
+- type: loadoutGroup
+  id: LawyerHead
+  name: loadout-group-lawyer-head
+  minLimit: 0
+  loadouts:
+  - BartenderHead
+  - BartenderBowler
+  - SupremeLawyerHead #DV
 
 - type: loadoutGroup
   id: LawyerJumpsuit
@@ -551,6 +785,8 @@
   - LawyerJumpskirtRed
   - LawyerJumpsuitGood
   - LawyerJumpskirtGood
+  - GalaxyRed #nyanotrasen
+  - GalaxyBlue #nyanotrasen
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -559,6 +795,8 @@
   minLimit: 0
   loadouts:
   - LawyerNeck
+  - LawyerCloak #DV
+  - LawyerMantle #DV
 
 - type: loadoutGroup
   id: ChaplainHead
@@ -570,6 +808,24 @@
   - ChaplainPlagueHat
   - ChaplainWitchHat
   - ChaplainWitchHatAlt
+  - ChaplainHeadDruid #imp
+  - ChaplainHeadMoon #imp
+  - ChaplainHeadTidal #imp
+  - ChaplainHeadSun #imp
+  - ChaplainHeadVeil #imp
+  - TechPriest #nyanotrasen
+  - PilgrimHead #frontier
+  - BishopMitre #frontier
+  - CardinalHat #frontier
+  - WitchHunterHat #frontier
+  - Kippah #frontier
+
+- type: loadoutGroup
+  id: ChaplainEyes
+  name: loadout-group-chaplain-eyes
+  minLimit: 0
+  loadouts:
+  - ChaplainBlindfold #imp
 
 - type: loadoutGroup
   id: ChaplainMask
@@ -577,6 +833,9 @@
   minLimit: 0
   loadouts:
   - ChaplainMask
+  - ChaplainMaskClayshaper #imp
+  - ChaplainMaskFire #imp
+  - ChaplainMaskSilent #imp
 
 - type: loadoutGroup
   id: ChaplainJumpsuit
@@ -586,6 +845,13 @@
   - ChaplainJumpskirt
   - ChaplainRobesLight
   - ChaplainRobesDark
+  - ChaplainSkirtClayshaper #imp
+  - ChaplainSkirtDruid #imp
+  - ChaplainSkirtMoon #imp
+  - ChaplainSkirtTidal #imp
+  - ChaplainUniformSun #imp
+  - ChaplainUniformTech #imp
+  - PilgrimJumpsuit #frontier
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -597,6 +863,12 @@
   - ChaplainNunRobe
   - ChaplainBlackHoodie
   - ChaplainHoodie
+  - ChaplainOuterMoon #imp
+  - ChaplainOuterSilent #imp
+  - TechPriestSuit #nyanotrasen
+  - ChaplainBishopRobe #frontier
+  - ChaplainCardinalRobe #frontier
+  - ChaplainWitchHunterRobe #frontier
 
 - type: loadoutGroup
   id: ChaplainNeck
@@ -604,6 +876,23 @@
   minLimit: 0
   loadouts:
   - ChaplainNeck
+  - ChaplainNeckFrontier #frontier
+  - ChaplainNeckClayshaper #imp
+  - ChaplainNeckDruid #imp
+  - ChaplainNeckDruidMantle #imp
+  - ChaplainNeckTidal #imp
+  - ChaplainNeckSun #imp
+  - ChaplainNeckDragon #imp
+  - Crucifix #frontier
+
+- type: loadoutGroup
+  id: ChaplainShoes #jamboree
+  name: loadout-group-chaplain-shoes
+  minLimit: 0
+  loadouts:
+  - BlackShoes
+  - ClothFootWraps #jamboree, frontier content
+  - SandalShoe #jamboree, goob content
 
 - type: loadoutGroup
   id: JanitorHead
@@ -619,6 +908,7 @@
   loadouts:
   - JanitorJumpsuit
   - JanitorJumpskirt
+  - CarpExterminator #funky
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -687,6 +977,26 @@
   loadouts:
   - JesterHat
   - JesterAltHat
+  - EvilJesterHat #imp
+  - CircusClownHat #imp
+
+- type: loadoutGroup
+  id: ClownMask
+  name: loadout-group-clown-mask #jamboree
+  loadouts:
+  - ClownMask
+  - BaldClownMask #frontier
+  - ClownDevil #funky
+  - ClownGamble #funky
+  - ClownJuggle #funky
+  - ClownNose #imp
+
+- type: loadoutGroup
+  id: ClownNeck
+  name: loadout-group-clown-neck
+  minLimit: 0
+  loadouts:
+  - NeckRuffle #imp
 
 - type: loadoutGroup
   id: ClownJumpsuit
@@ -696,6 +1006,9 @@
   - ClownSkirt
   - JesterSuit
   - JesterAltSuit
+  - EvilJesterSuit #imp
+  - CircusClownSuit #imp
+  - JokesterSuit #imp
 
 - type: loadoutGroup
   id: ClownBackpack
@@ -713,6 +1026,7 @@
   loadouts:
   - ClownRobes
   - ClownWintercoat
+  - JokesterOuterCoat #imp
 
 - type: loadoutGroup
   id: ClownShoes
@@ -720,6 +1034,9 @@
   loadouts:
   - ClownShoes
   - JesterShoes
+  - EvilJesterShoes #imp
+  - CircusClownShoes #imp
+  - JokesterShoes #imp
 
 - type: loadoutGroup
   id: SurvivalClown
@@ -751,6 +1068,7 @@
   - MimeMask
   - MimeMaskSad
   - MimeMaskScared
+  - MimeMaskOdd #funky
 
 - type: loadoutGroup
   id: MimeJumpsuit
@@ -798,12 +1116,37 @@
   - EmergencySilicon
 
 - type: loadoutGroup
+  id: MusicianHead
+  name: loadout-group-musician-head
+  minLimit: 0
+  loadouts:
+  - MusicianShako #imp
+
+- type: loadoutGroup
+  id: MusicianNeck
+  name: loadout-group-musician-neck
+  minLimit: 0
+  loadouts:
+  - FeatherBoa #imp
+
+- type: loadoutGroup
   id: MusicianJumpsuit
   name: loadout-group-musician-jumpsuit
   loadouts:
   - MusicianJumpsuit
   - MusicianJumpskirt
+  - ClothingUniformMrSpaceWide #imp
+  - ClothingUniformMrSpaceWideSkirt #imp
+  - MusicianMarchingBand #imp
+  - MusicianSingerDress #imp
   - ServiceMJ # goob
+
+- type: loadoutGroup
+  id: MusicianGloves
+  name: loadout-group-musician-gloves
+  minLimit: 0
+  loadouts:
+  - MusicianSingerGloves #imp
 
 - type: loadoutGroup
   id: MusicianOuterClothing
@@ -811,6 +1154,14 @@
   minLimit: 0
   loadouts:
   - MusicianWintercoat
+  - MusicianFurCoat
+
+- type: loadoutGroup
+  id: MusicianShoes
+  name: loadout-group-musician-shoes
+  loadouts:
+  - BlackShoes
+  - BlackHeels
 
 - type: loadoutGroup
   id: Instruments
@@ -855,6 +1206,8 @@
   loadouts:
   - QuartermasterHead
   - QuartermasterBeret
+  - QuartermasterTopHat #funky
+  - McCrown #frontier
 
 - type: loadoutGroup
   id: QuartermasterJumpsuit
@@ -865,6 +1218,8 @@
   - QuartermasterTurtleneck
   - QuartermasterTurtleneckSkirt
   - QuartermasterFormalSuit
+  - QuartermasterFancySuit #funky
+  - QuartermasterFancySkirt #funky
   - QuartermasterMJ # goob
   - QMSummerShirt # goob
 
@@ -875,6 +1230,7 @@
   loadouts:
   - QuartermasterCloak
   - QuartermasterMantle
+  - QuartermasterGreatcoat #imp
 
 - type: loadoutGroup
   id: QuartermasterOuterClothing
@@ -882,6 +1238,7 @@
   minLimit: 0
   loadouts:
   - QuartermasterWintercoat
+  - QuartermasterWintercoatXXXL #imp
 
 - type: loadoutGroup
   id: QuartermasterShoes
@@ -974,6 +1331,7 @@
   - ChiefEngineerTurtleneckSkirt
   - ChiefEngineerMJ # goob
   - CESummerShirt # goob
+  - ChiefEngineerJumpsuitForeman #imp
 
 - type: loadoutGroup
   id: ChiefEngineerNeck
@@ -1025,6 +1383,11 @@
   - SeniorEngineerJumpsuit
   - SeniorEngineerJumpskirt
   - EngiMJ # goob
+  - Electrician #funky
+  - EngiTanktop #funky
+  - EngiCoveralls #funky
+  - EngiOveralls #funky
+  - EngiShirt #funky
 
 - type: loadoutGroup
   id: StationEngineerBackpack
@@ -1119,6 +1482,7 @@
   minLimit: 0
   loadouts:
   - ResearchDirectorBeret
+  - MuffinHat #DV/nyanotrasen
 
 - type: loadoutGroup
   id: ResearchDirectorNeck
@@ -1127,6 +1491,7 @@
   loadouts:
   - ResearchDirectorMantle
   - ResearchDirectorCloak
+  - MystaCloak #DV
 
 - type: loadoutGroup
   id: ResearchDirectorJumpsuit
@@ -1158,8 +1523,8 @@
   name: loadout-group-scientist-head
   minLimit: 0
   loadouts:
-  #- RoboticistCap
-  #- SkullBandana
+  - RoboticistCap #reenabled, jamboree
+  - SkullBandana # reenabled, jamboree
   - ScientificBeret
 
 - type: loadoutGroup
@@ -1175,8 +1540,10 @@
   loadouts:
   - ScientistJumpsuit
   - ScientistJumpskirt
-  #- RoboticistJumpsuit
-  #- RoboticistJumpskirt
+  - RoboticistJumpsuit #jamboree, reenabled because for SOME FUCKING REASON goob has roboticists using the scientist loadouts event though they FUCKING MADE LOADOUT GROUPS FOR THEM!!!!
+  - RoboticistJumpskirt #jamboree, reenabled
+  - InterRoboticistJumpsuit #funky
+  - InterRoboticistJumpskirt #funky
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
   - ResearchMJ # goob
@@ -1218,6 +1585,7 @@
   - LatexGloves
   - PurpleGloves
   - RobohandsGloves
+  - InterRobohandsGloves
 
 - type: loadoutGroup
   id: ScientistPDA
@@ -1243,6 +1611,7 @@
   - HeadofSecurityHead
   - HeadofSecurityBeret
   - HeadofSecuritySpecialBeret # Goobstation
+  - HoSCowboy #Delta V
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -1264,6 +1633,7 @@
   - HeadofSecurityCloak
   - HeadofSecurityMantle
   - Bodycam # Goobstation - Body cameras
+  - HeadofSecurityGreatcoat #imp
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
@@ -1307,6 +1677,16 @@
   - SecurityBeret
   - SecurityHat
   - TrooperHat
+  - PrisonGuardHat #DV/nyanotrasen
+
+- type: loadoutGroup
+  id: SecurityFace
+  name: loadout-group-security-face #jamboree
+  minLimit: 0
+  loadouts:
+  - BalaclavaBlack #frontier
+  - Gaiter #jamboree
+  - RedGaiter #jamboree
 
 - type: loadoutGroup
   id: SecurityJumpsuit
@@ -1319,6 +1699,12 @@
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
   - TrooperUniform
+  - PrisonGuardJumpsuit #DV/nyanotrasen
+  - PrisonGuardJumpskirt #DV/nyanotrasen
+  - FrontierSecJumpsuit #frontier
+  - FrontierSecJumpskirt #frontier
+  - PrivateSecJumpsuit #frontier
+  - PrivateSecJumpskirt #frontier
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1335,6 +1721,7 @@
   loadouts:
   - SecurityBelt
   - SecurityWebbing
+  - SecurityJudoBelt # Goobstation - Martial Arts
 
 - type: loadoutGroup
   id: SecurityOuterClothing
@@ -1367,6 +1754,7 @@
   loadouts:
   - DetectiveFedora
   - DetectiveFedoraGrey
+  - ClothingHeadDeerstalker #imp
 
 - type: loadoutGroup
   id: DetectiveNeck
@@ -1392,6 +1780,7 @@
   - DetectiveArmorVest
   - DetectiveCoat
   - DetectiveCoatGrey
+  - DetectiveCoatPlate #DV
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
@@ -1440,6 +1829,7 @@
   - ChiefMedicalOfficerTurtleneckJumpsuit
   - ChiefMedicalOfficerTurtleneckJumpskirt
   - CMOMJ # goob
+  - CMOScrubs #imp
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -1448,6 +1838,7 @@
   loadouts:
   - ChiefMedicalOfficerLabCoat
   - ChiefMedicalOfficerWintercoat
+  - CMOPrestigeLabcoat #imp
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerNeck
@@ -1456,6 +1847,7 @@
   loadouts:
   - ChiefMedicalOfficerCloak
   - ChiefMedicalOfficerMantle
+  - CMOGreatCloak #imp
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerShoes
@@ -1476,6 +1868,7 @@
   - GreenSurgeryCap
   - PurpleSurgeryCap
   - NurseHat
+  - FaceShield #funky
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
@@ -1588,6 +1981,8 @@
   loadouts:
   - ParamedicJumpsuit
   - ParamedicJumpskirt
+  - ParamedicSpeedsuit #funky
+  - ParamedicSpeedskirt #funky
   - SeniorPhysicianJumpsuit # Goobstation
   - SeniorPhysicianJumpskirt # Goobstation
   - ParamedMJ # goob

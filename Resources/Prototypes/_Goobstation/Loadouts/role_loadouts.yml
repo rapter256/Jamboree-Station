@@ -99,6 +99,7 @@
   - NanotrasenRepresentativeJumpsuit
   - NanotrasenRepresentativeBackpack
   - NanotrasenRepresentativeNeck
+  - NanotrasenRepresentativeOuter #frontier & jamboree
   - NanotrasenRepresentativeShoes
   - NanotrasenRepresentativeBelt
   - Glasses
@@ -174,8 +175,10 @@
   - ScientistShoes
   - ScientistPDA
   - Glasses
+  - Animals # Jamboree, parity with other roles
   - Survival
   - Trinkets
+  - Drip # Jamboree
   - GroupSpeciesBreathTool
   # Plasmaman
   - ScientistEnvirohelm
@@ -212,3 +215,27 @@
   id: RoleSurvivalPlasmaTank
   groups:
   - GroupEVATankPlasma
+
+# Event-restricted roles
+
+- type: roleLoadout
+  id: JobSecurityClown
+  groups:
+  - ClownBackpack
+  - SurvivalSecurity
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobCommandMaid
+  groups:
+  - CommonBackpack
+  - Survival
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobPartyMaker
+  groups:
+  - GroupTankHarness
+  - CommonBackpack
+  - Survival
+  - GroupSpeciesBreathTool

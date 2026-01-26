@@ -74,6 +74,15 @@
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
+- type: loadoutEffectGroup
+  id: MasterBartender #jamboree & funky
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobBartender
+      time: 216000 #60 hrs
+
 # Head
 - type: loadout
   id: BartenderHead
@@ -99,12 +108,10 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtBartender
 
-
 - type: loadout
   id: BartenderJumpsuitPurple
   equipment:
     jumpsuit: ClothingUniformJumpsuitBartenderPurple
-
 
 # Outer clothing
 - type: loadout

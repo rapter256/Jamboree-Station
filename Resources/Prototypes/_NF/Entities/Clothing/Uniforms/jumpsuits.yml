@@ -1,0 +1,69 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitValet
+  name: valet's uniform
+  description: A nice and tidy uniform.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitChaplainPilgrimVest
+  name: pilgrim jumpsuit
+  description: Knock-knock. Would you care to have a word about our Lord-n-Savior Nar-Sss.. Err.. Space Jeebus?
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSecGuard
+  name: security guard's frontiersman uniform #changed from security guard's uniform (jamboree)
+  description: A specialized uniform for security guard's upon distant outposts in the final frontier. Crisp and official to let dock loiterers know you mean business. #changed from frontier description (jamboree)
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/security_guard.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/security_guard.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPrivateSec
+  name: private security jumpsuit
+  description: A specialized uniform for a private security guard. For the discerning private contractor in need of a professional look.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/private_security.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/private_security.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitHoP
+  id: ClothingUniformJumpsuitSr
+  name: nanotrasen representative's frontiersman uniform #changed from station representative's uniform (jamboree)
+  description: A top of the line outfit for a Nanotrasen representative who has braved the final frontier. No expense was spared in the tailoring, every stitch is a masterpiece. #changed from frontier description (jamboree)
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/sr.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/sr.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPirateLuffy
+  name: suspicious pirate uniform
+  description: A rather suspicious looking set of pirate clothes.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/pirate_luffy.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpsuit/pirate_luffy.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorOff
+  - type: PirateAccent

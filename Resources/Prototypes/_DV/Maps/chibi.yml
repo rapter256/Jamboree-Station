@@ -35,10 +35,13 @@
       - type: StationJobs
         availableJobs:
           Captain: [ 1, 1 ]
+          NanotrasenRepresentative: [ 1, 1 ] # added by jamboree
+          HeadOfPersonnel: [ 1, 1 ] #added by jamboree
 
           HeadOfSecurity: [ 1, 1 ]
           SecurityOfficer: [ 1, 2 ]
           Warden: [ 1, 1 ]
+          SecurityCadet: [ 1, 2 ] #jamboree - cause why no practice.
 
           Quartermaster: [ 1, 1 ]
           CargoTechnician: [ 1, 2 ]
@@ -47,9 +50,16 @@
           Bartender: [ 1, 1 ]
           Botanist: [ 1, 1 ]
           Chef: [ 1, 1 ]
+          Chaplain: [ 1, 1 ] #added by jamboree
+          Lawyer: [ 1, 1 ] #added by jamboree
+          Clown: [ 1, 1 ] #added by jamboree
+          Mime: [ 1, 1 ] #added by jamboree
+          ServiceWorker: [ 2, 2 ] #added by jamboree
 
+          ChiefMedicalOfficer: [ 1, 1 ] #added by jamboree
           MedicalDoctor: [ 1, 2 ]
           Chemist: [ 1, 1 ]
+          MedicalIntern: [ 1, 2 ] #jamboree - cause why no practice.
 
           Janitor: [ 1, 1 ]
           Musician: [ 1, 1 ]
@@ -57,9 +67,11 @@
           ChiefEngineer: [ 1, 1 ]
           AtmosphericTechnician: [ 1, 1 ]
           StationEngineer: [ 1, 2 ]
+          TechnicalAssistant: [ 1, 2 ] #jamboree - cause why no practice.
 
           ResearchDirector: [ 1, 1 ]
           Scientist: [ 1, 1 ]
+          ResearchAssistant: [ 1, 2 ] #jamboree - cause why no practice.
 
           Passenger: [ -1, -1 ]
 

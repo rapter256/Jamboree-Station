@@ -6,10 +6,13 @@
 # SPDX-FileCopyrightText: 2025 Aineias1 <dmitri.s.kiselev@gmail.com>
 # SPDX-FileCopyrightText: 2025 FaDeOkno <143940725+FaDeOkno@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 Gorse1 <elliotreece80@gmail.com>
+# SPDX-FileCopyrightText: 2025 JamboreeBot <JamboreeBot@proton.me>
 # SPDX-FileCopyrightText: 2025 McBosserson <148172569+McBosserson@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Milon <plmilonpl@gmail.com>
 # SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
 # SPDX-FileCopyrightText: 2025 Rouden <149893554+Roudenn@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 TheBorzoiMustConsume <197824988+TheBorzoiMustConsume@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Unlumination <144041835+Unlumy@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
@@ -91,6 +94,7 @@
       types:
         Blunt: 10
         Slash: 5
+        Structural: 25
     soundHit:
       collection: MetalThud
     angle: 0
@@ -132,6 +136,7 @@
     damage:
       types:
         Blunt: 17.5
+        Structural: 60 # BIG HAMMER
     soundHit:
       collection: MetalThud
     angle: 0
@@ -181,6 +186,7 @@
     damage:
       types:
         Slash: 5
+        Structural: 10 # so you can break railings and small things etc.
     soundHit:
       collection: MetalThud
     angle: 0
@@ -217,13 +223,14 @@
     damage:
       types:
         Slash: 12.5
+        Structural: 35
     soundHit:
       collection: MetalThud
     angle: 0
     animation: WeaponArcThrust
     range: 1.6
   - type: Item
-    size: Ginormous
+    size: Large # you can put a normal machete in your backpack, why not this one
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_machete-inhands.rsi
   # too lazy to port parrying and risk a [redacted] lmao
   - type: Sharp

@@ -50,10 +50,14 @@
     ClothingHeadHatSecsoft: 3
     ClothingHeadBandRed: 3
     ClothingHeadHatSecurityTrooper: 3
+    ClothingHeadPrisonGuard: 3 #Nyanotrasen
     ClothingHeadHatBeretBrigmedic: 1 # Goobstation
+    ClothingHeadHatBeretCorpsman: 1 #DV
     SurveillanceWirelessCameraBodySecurity: 5 # Goobstation
     ClothingMaskGasSecurity: 5 # Goobstation
     ClothingMaskNeckGaiterRed: 3
+    ClothingMaskNeckGaiter: 3 #jamboree
+    ClothingMaskBalaclavaBlack: 3 #frontier
     ClothingHandsGlovesColorBlack: 3
     ClothingHandsGlovesFingerless: 3
     ClothingUniformJumpskirtSec: 3
@@ -61,13 +65,22 @@
     ClothingUniformJumpskirtSecGrey: 3
     ClothingUniformJumpsuitSecBlue: 3
     ClothingUniformSecurityTrooper: 3
+    ClothingUniformJumpsuitPrisonGuard: 3 #DV
+    ClothingUniformJumpskirtPrisonGuard: 3 #DV
+    ClothingUniformJumpsuitSecGuard: 3 #frontier
+    ClothingUniformJumpskirtSecGuard: 3 #frontier
+    ClothingUniformJumpsuitPrivateSec: 3 #frontier
+    ClothingUniformJumpskirtPrivateSec: 3 #frontier
     ClothingUniformJumpsuitBrigmedic: 1 # Goobstation
     ClothingUniformJumpskirtBrigmedic: 1 # Goobstation
+    ClothingUniformJumpsuitCorpsman: 1 #DV
+    ClothingUniformJumpskirtCorpsman: 1 #DV
     ClothingHeadsetAltSecurityRegular: 3 # Goobstation
     ClothingOuterWinterSec: 2
     ClothingOuterWinterSecArmored : 2 # Goobstation
     ClothingOuterArmorBasic: 2
     ClothingOuterCoatAMG: 1 # Goobstation
+    ClothingOuterCoatStasecCorpsman: 1 #DV
     ClothingNeckScarfStripedRed: 3
     ClothingOuterArmorBasicSlim: 2
     ClothingEyesBlindfold: 1

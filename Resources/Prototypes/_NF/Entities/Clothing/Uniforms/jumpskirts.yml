@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtValet
+  name: valet's uniform
+  description: A nice and tidy uniform.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtSecGuard
+  name: security guard's frontiersman uniform #changed from security guard's uniform (jamboree)
+  description: A specialized uniform for security guard's upon distant outposts in the final frontier. Crisp and official to let dock loiterers know you mean business. #changed from frontier description (jamboree)
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/security_guard.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/security_guard.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtPrivateSec
+  name: private security jumpskirt
+  description: A specialized uniform for a private security guard. For the discerning private contractor in need of a professional look.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/private_security.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/private_security.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtHoP
+  id: ClothingUniformJumpskirtSr
+  name: nanotrasen representative's frontiersman uniform #changed from station representative's uniform (jamboree)
+  description: A top of the line outfit for a Nanotrasen representative who has braved the final frontier. No expense was spared in the tailoring, every stitch is a masterpiece. #changed from frontier description (jamboree)
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/sr.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Uniforms/Jumpskirt/sr.rsi

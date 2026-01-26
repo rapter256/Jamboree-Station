@@ -328,3 +328,251 @@ Entries:
         assignments.
   id: 43
   time: '2025-09-28T19:57:12.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Tweak
+      message: >-
+        added structural damage to both crushers and all kinetic weapons,
+        salvage rejoice!
+    - type: Tweak
+      message: made kinetic machete able to be stored in a backpack as a large item
+  id: 44
+  time: '2025-11-30T17:28:01.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        You now need 10 hours of Borg Playtime to become a Derelict Syndicate
+        Borg.
+  id: 45
+  time: '2025-11-30T18:23:24.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Tweak
+      message: increased armor on jackboots and combat gloves to prevent delimbing
+    - type: Tweak
+      message: reduced combat glove price in the salvage vendor to 550
+  id: 46
+  time: '2025-12-06T21:02:36.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Tweak
+      message: made changeling not round remove
+  id: 47
+  time: '2025-12-06T21:03:51.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Tweak
+      message: >-
+        Reworked the instigator to be a more building/scrapping focused antag,
+        have fun!
+  id: 48
+  time: '2025-12-30T11:37:21.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Pride Cloaks have came to the trinkets menu!
+  id: 49
+  time: '2025-12-30T11:49:17.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added Drip to the Roboticist loadout!
+    - type: Add
+      message: Added Animals to the Roboticist loadout!
+  id: 50
+  time: '2025-12-31T16:15:55.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added megaphone's to the Captain and HoS' lockers!
+    - type: Add
+      message: Added the grappling gun to the paramedic's locker!
+  id: 51
+  time: '2025-12-31T16:21:01.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Added a large assortment of clothing items from Impstation! Check your
+        loadout in the lobby or you nearest Clothesmat, Autodrobe, or PietyVend
+        ;)
+    - type: Add
+      message: >-
+        Added some clothing items that already exist in Jamboree to some roles
+        loadouts! Finally... Pirate Passenger...
+  id: 52
+  time: '2026-01-01T20:09:39.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Added several pieces of clothing from Funkystation! Check out the
+        Bartender, Medical Doctor, Mime, Clown, Quartermaster, Roboticist,
+        Paramedic, Janitor, Chef, and Quartermaster's loadouts in the lobby!
+    - type: Add
+      message: Added several dresses to the Assistant's loadout!
+    - type: Tweak
+      message: >-
+        Musicians can no longer start rounds without shoes. You can still take
+        off your shoes though!
+    - type: Tweak
+      message: >-
+        Chaplains now start rounds without shoes! They also have some shoe
+        options in the loadout menu!
+  id: 53
+  time: '2026-01-05T21:40:08.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Remove
+      message: Removed deathmatch from the gamemode vote
+  id: 54
+  time: '2026-01-06T12:44:58.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Added several pieces of clothing from the Delta-V server! Check out your
+        local clothing vendors and the loadout menu to see all that has been
+        added!
+    - type: Add
+      message: >-
+        Added several pieces of clothing from the Frontier server! Check out
+        your loadout menu and local clothing vendors! There may or may not be a
+        secret cosmetic set in one of the vending machines ;)
+  id: 55
+  time: '2026-01-12T00:05:25.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Remove
+      message: Removed BSO from atlas, amber, and bagel
+    - type: Tweak
+      message: Reworked NTR offices on atlas amber and bagel
+    - type: Add
+      message: Added NTR spawns to atlas amber and bagel
+  id: 56
+  time: '2026-01-15T04:33:44.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Changed multiple mentions of Space Law to Legal Mandate as to avoid
+        confusion on in game rules. Check out the guidebook for details!
+    - type: Tweak
+      message: >-
+        Changed the Space Law guidebook into the Legal Mandate guidebook! The
+        sprite is also different!
+  id: 57
+  time: '2026-01-15T04:35:09.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Hooliganism, if repeated, can now result in the violator being held for
+        as long as is needed. The hooligans had it coming!
+    - type: Tweak
+      message: >-
+        Hooliganism is now its own violation and no longer a line in Vandalism,
+        as it was meant to be!
+    - type: Tweak
+      message: >-
+        CMO's can now use and create narcotics/poisons outside of medbay!
+        DRUGS!!!!!!
+    - type: Tweak
+      message: >-
+        CMO's now have a proper section in the Violations, Punishments, and
+        Varieties section for writing chemical permits!
+    - type: Tweak
+      message: >-
+        Roles with round start narcotics/stimulants are no longer viable to
+        arrest! Now security stims are legal!
+  id: 58
+  time: '2026-01-21T06:27:25.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Added Security Cadets, Technical Assistants, Research Assistants, and
+        Medical Interns to Chibi! Finally, you can have a training arc on Chibi!
+  id: 59
+  time: '2026-01-22T04:31:56.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added Clowns and Mimes to Chibi! They live in the dump.
+    - type: Tweak
+      message: >-
+        Disposals has been turned into a hybrid of a Disposals and a Clown/Mime
+        room. They live in the dump.
+    - type: Add
+      message: CMOs and HOPs have arrived to Chibi station! Their vacation is over.
+    - type: Tweak
+      message: >-
+        Added the HOP's locker to the bridge and the CMO's locker to the surgery
+        room.
+    - type: Tweak
+      message: One of the beds in Chibi has been traded out for a stasis bed!
+    - type: Add
+      message: Chaplains have arrived to Chibi! They sensed how ungodly it was there.
+    - type: Tweak
+      message: >-
+        The library has been transformed into a chapel! The Games vendor is
+        still there, but now you can pray your sins away too!
+    - type: Add
+      message: >-
+        Lawyers have come to Chibi. They don't have a dedicated room, but are
+        still ready to point out loopholes!
+    - type: Add
+      message: Service Workers have come to Chibi. They want to work in service.
+    - type: Add
+      message: There is something in one of the maints halls of Chibi... Enjoy!
+  id: 60
+  time: '2026-01-22T22:44:50.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to barratry, box, and chloris
+    - type: Remove
+      message: Removed BSO from barratry, box and chloris
+  id: 61
+  time: '2026-01-23T03:02:48.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to cluster, delta, and fland
+    - type: Remove
+      message: Removed BSO from cluster, delta, and fland
+  id: 62
+  time: '2026-01-25T20:19:46.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to kettle, leonid, and loop
+    - type: Remove
+      message: Removed BSO from kettle, leonid, and loop
+  id: 63
+  time: '2026-01-25T21:28:20.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR to marathon, meta, and oasis
+    - type: Remove
+      message: Removed BSO from marathon, meta, and oasis
+  id: 64
+  time: '2026-01-25T21:41:58.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to omega, origin, and packed
+    - type: Remove
+      message: Removed BSO from omega, origin, and packed
+  id: 65
+  time: '2026-01-25T22:01:10.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to reach, saltern, and serpentcrest
+    - type: Remove
+      message: Removed BSO from reach, saltern, and serpentcrest
+  id: 66
+  time: '2026-01-26T01:58:06.0000000+00:00'

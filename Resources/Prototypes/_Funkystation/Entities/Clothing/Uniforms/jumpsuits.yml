@@ -1,0 +1,160 @@
+# SPDX-FileCopyrightText: 2025 CalicoDragon <110030310+CalicoDragon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 DESKTOP-0V0K4HQ\Rosy <rosysaturniidae@gmail.com>
+# SPDX-FileCopyrightText: 2025 Fr0goo <153249069+Fr0goo@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Fr0goo <frogoofrog@outlook.com>
+# SPDX-FileCopyrightText: 2025 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Sofia Gilsanz <softie.gd@gmail.com>
+# SPDX-FileCopyrightText: 2025 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 ThatOneMoon <juozas.dringelis@gmail.com>
+# SPDX-FileCopyrightText: 2025 Xcybitt <xcybitt@gmail.com>
+# SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 heree <79546981+hereelabs@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 hereelabs <hahmorm@gmail.com>
+# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 vectorassembly <vectorassembly@icloud.com>
+# SPDX-FileCopyrightText: 2025 willowzeta <willowzeta632146@proton.me>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+# quartermaster formal suit (by Frogoo)
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpsuitQMFancy #jamboree, changed from formal to fancy
+  name: quartermaster's fancy suit #jamboree, changed from formal to fancy
+  description: With this suit you'll look like a million bucks! Just dont get it stained.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/qm_suit.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/qm_suit.rsi
+
+# Janitor clothes (by Frogoo)
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformCarpExterminator
+  name: carp exterminator overalls
+  description: a special pair of overalls made to keep you clean through a endless wave of carp
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/carp_exterminator.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/carp_exterminator.rsi
+
+# Engi stuff! (By AraiMaia)
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngineeringElectrician
+  name: electrician's jumpsuit
+  description: A comfortable suit with hi-viz markings and harnessing points for working in uncomfortable spots. Smells like budget insuls.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineerelectrician.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineerelectrician.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngineeringTankTop
+  name: engineering tank top
+  description: A white tank top, over a pair of hardy engineering cargo pants. Nothing if not practical.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineertanktop.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineertanktop.rsi
+
+# Engineering uniforms (by aCalicoDragon)
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngineeringOveralls
+  name: engineer's overalls
+  description: Comfortable for work, yet so stylish!
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineering_overalls.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineering_overalls.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngineeringCoveralls
+  name: engineer's coveralls
+  description: Nice and simple, still effective!
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineering_coveralls.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineering_coveralls.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngineeringShirt
+  name: engineer's shirt with pants
+  description: And we all lift, and we're all adrift, together...
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineering_shirt.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/engineering_shirt.rsi
+
+# paramedic speedsuit (sprites by AraiMaia, im just putting it here)
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitParamedicSpeedsuit
+  name: paramedic speedsuit
+  description: Why do you think these things are like, 95% polyester? You can clean off blood and vomit with a wet nap!
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/paramedic_speedsuit.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/paramedic_speedsuit.rsi
+
+# originally from impstation in concept, but is a funky resprite
+- type: entity
+  parent: [ClothingUniformBase]
+  id: ClothingUniformSeniorBartender
+  name: senior bartender suit
+  description: But you are the bartender, you've always been the bartender.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/senior_bartender.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/senior_bartender.rsi
+
+- type: entity
+  parent: [ClothingUniformBase]
+  id: ClothingUniformNightclubSuit
+  name: nightclub suit
+  description: ID please?
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/nightclubsuit.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/nightclubsuit.rsi
+
+#funky resprites of base game clothes
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitInterRoboticist #changed to have inter in front of robo
+  name: roboticist's interfacing suit
+  description: It's a slimming black with reinforced neuro-connectors; perfect for interfacing with mechs.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/interroboticist.rsi #rsi changed to have inter in front of Roboticist
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/interroboticist.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMasterChef
+  name: master chef uniform
+  description: You may be the chef, but your tailor was cooking. # jamboree change from: Can't cook without this.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/master_chef_suit.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/master_chef_suit.rsi
