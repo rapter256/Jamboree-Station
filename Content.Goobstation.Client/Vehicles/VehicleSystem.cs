@@ -6,11 +6,11 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using System.Numerics;
+using System.Numerics; // Frontier
 using Content.Goobstation.Shared.Vehicles;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
-using Robust.Shared.Graphics.RSI;
+using Robust.Shared.Graphics.RSI; // Frontier
 
 namespace Content.Goobstation.Client.Vehicles;
 
@@ -19,7 +19,7 @@ public sealed class VehicleSystem : SharedVehicleSystem
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly IEyeManager _eye = default!;
     [Dependency] private readonly SpriteSystem _sprites = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!; // Frontier
 
     public override void Initialize()
     {
@@ -40,9 +40,11 @@ public sealed class VehicleSystem : SharedVehicleSystem
             return;
 
         SpritePos(uid, comp);
-        if (!spriteComp.LayerMapTryGet(VehicleVisualLayers.AutoAnimate, out var layer)) // Frontier - Vehicle Animations
+        // Start Frontier - Handle AutoAnimate
+        if (!spriteComp.LayerMapTryGet(VehicleVisualLayers.AutoAnimate, out var layer))
             layer = 0;
         spriteComp.LayerSetAutoAnimated(layer, animated);
+        // End Frontier
     }
 
     private void OnMove(EntityUid uid, VehicleComponent component, ref MoveEvent args)
@@ -78,7 +80,7 @@ public sealed class VehicleSystem : SharedVehicleSystem
         }
     }
 
-    // Frontier - Extra Offset fields
+    // Start Frontier - Extra Offset fields
     // Could potentially be merged into SpritePos but eh
     public override void FrameUpdate(float frameTime)
     {
@@ -119,11 +121,13 @@ public sealed class VehicleSystem : SharedVehicleSystem
                 sprite.Offset = offset;
         }
     }
+    // End Frontier
 }
 
-// Frontier - Animate Vehicle Automatically
+// Start Frontier - Animate Vehicle Automatically
 public enum VehicleVisualLayers : byte
 {
     /// Layer for the vehicle's wheels/jets/etc.
     AutoAnimate,
 }
+// End Frontier
