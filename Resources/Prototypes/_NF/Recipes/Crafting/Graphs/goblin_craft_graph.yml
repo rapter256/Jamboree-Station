@@ -687,11 +687,8 @@
     edges:
     - to: NFGoblinMadeVehicleDumpster
       steps:
-      - component: GoblinVehicle
-        name: construction-graph-component-goblin-vehicle
-        icon:
-          sprite: _NF/Structures/Storage/magnetbox.rsi
-          state: rubbishbox
+      - material: Steel # Jamboree - Replace Trashcart with 10 steel.
+        amount: 10
         doAfter: 1
       - component: NFChairFolding
         name: construction-graph-component-nf-chair-folding
