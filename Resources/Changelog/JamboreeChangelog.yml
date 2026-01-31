@@ -614,3 +614,9 @@ Entries:
       message: The Goblin language has a new description.
   id: 69
   time: '2026-01-31T19:08:17.0000000+00:00'
+- author: TehFlaminTaco
+  changes:
+    - type: Add
+      message: Goblin Dumpsters are craftable now
+  id: 70
+  time: '2026-01-31T23:31:54.0000000+00:00'
