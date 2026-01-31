@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # clothes
 #region robes
 - type: constructionGraph
@@ -687,11 +691,8 @@
     edges:
     - to: NFGoblinMadeVehicleDumpster
       steps:
-      - component: GoblinVehicle
-        name: construction-graph-component-goblin-vehicle
-        icon:
-          sprite: _NF/Structures/Storage/magnetbox.rsi
-          state: rubbishbox
+      - material: Steel # Jamboree - Replace Trashcart with 10 steel.
+        amount: 10
         doAfter: 1
       - component: NFChairFolding
         name: construction-graph-component-nf-chair-folding
