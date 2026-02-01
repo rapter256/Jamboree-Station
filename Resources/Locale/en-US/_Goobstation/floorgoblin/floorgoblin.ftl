@@ -2,13 +2,15 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-language-FloorGoblin-name = Floor Goblin
+language-FloorGoblin-name = Goblin
 language-FloorGoblin-description =
-    Mimimi mimimi iyoyoyo memimimimi bibibibibi mimim mimimi
+    The language of Goblins, both the big ones and the ones of the floor. It consists mostly of guttural noises, screeches, and the occasional word.
+    Though many scholars do not consider it a good effort to learn it, those who have learned Goblin do find that while it sounds harsh to outsiders,
+    it is actually quite the expressive and complex language.
 
-chat-language-FloorGoblin-name = Floor Goblin
+chat-language-FloorGoblin-name = Goblin
 
-chat-speech-verb-name-floor-goblin = Floor Goblin
+chat-speech-verb-name-floor-goblin = Goblin
 chat-speech-verb-floor-goblin-1 = mumbles
 chat-speech-verb-floor-goblin-2 = screeches
 chat-speech-verb-floor-goblin-3 = shrieks

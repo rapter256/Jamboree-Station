@@ -28,12 +28,15 @@
     ClothingUniformJumpsuitCasualCentcom: 3 # Goobstation
     ClothingHeadHatCentcom: 3
     ClothingHeadHatCentcomcap: 3
+    ClothingHeadHatBeretCentcomm: 3 #Nyanotrasen
     ClothingMaskGasCentcom: 3
     ClothingHeadsetCentCom: 3
     ClothingOuterWinterCentcom: 3
+    ClothingOuterWinterCCWarden: 3 #DV
     ClothingOuterCoatExpensive: 1
     ClothingNeckScarfStripedCentcom: 3
     ClothingNeckCloakCentcom: 3
+    ClothingNeckMantleCentcom: 3 #DV
   contrabandInventory:
     ToyFigurineCaptain: 1
     ToyFigurineHeadOfPersonnel: 1

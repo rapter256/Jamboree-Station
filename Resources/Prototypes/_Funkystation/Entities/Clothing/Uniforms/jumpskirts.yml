@@ -1,0 +1,74 @@
+# SPDX-FileCopyrightText: 2025 DESKTOP-0V0K4HQ\Rosy <rosysaturniidae@gmail.com>
+# SPDX-FileCopyrightText: 2025 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Middleson5 <Chance@thethiers.com>
+# SPDX-FileCopyrightText: 2025 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 ThatOneMoon <juozas.dringelis@gmail.com>
+# SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+# Teto Outfit (sprites by Middleson)
+
+# quartermaster formal suit (by Frogoo)
+
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband]
+  id: ClothingUniformJumpskirtQMFancy #jamboree, changed from formal to fancy
+  name: quartermaster's fancy dress
+  description: With this dress you'll look like a million bucks! Just dont get it stained.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/qm_suit.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/qm_suit.rsi
+
+# paramedic speedskirt (AraiMaia and RosySaturniidae)
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtParamedicSpeedskirt
+  name: paramedic speedskirt
+  description: Why do you think these things are like, 95% polyester? You can clean off blood and vomit with a wet nap!
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/paramedic_speedskirt.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/paramedic_speedskirt.rsi
+
+# originally from impstation in concept, but is a funky resprite
+
+- type: entity
+  parent: [ClothingUniformBase]
+  id: ClothingUniformNightclubSuitSkirt
+  name: nightclub suitskirt
+  description: ID please?
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/nightclubsuit.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/nightclubsuit.rsi
+
+- type: entity
+  parent: [ClothingUniformBase]
+  id: ClothingUniformSeniorBartenderSkirt
+  name: senior bartender suitskirt
+  description: But you are the bartender, you've always been the bartender.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/senior_bartender.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/senior_bartender.rsi
+
+# funky resprites of base game clothes
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtInterRoboticist #jamboree, added inter 
+  name: roboticist's sleeveless interfacing suit
+  description: It's a slimming black with reinforced neuro-connectors; with a waist-tied lab coat and no sleeves, for maximum fashion.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/interroboticist.rsi #jamboree change, added inter
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/interroboticist.rsi

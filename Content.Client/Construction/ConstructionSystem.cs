@@ -352,6 +352,7 @@ namespace Content.Client.Construction
 
                 for (var i = 0; i < targetSprite.AllLayers.Count(); i++)
                 {
+                    _sprite.AddBlankLayer((ghost.Value, sprite), i); // Jamboree - Moved to top of this loop to prevent an error.
                     if (!targetSprite[i].Visible || !targetSprite[i].RsiState.IsValid)
                         continue;
 
@@ -360,7 +361,6 @@ namespace Content.Client.Construction
                         state.StateId.Name is null)
                         continue;
 
-                    _sprite.AddBlankLayer((ghost.Value, sprite), i);
                     _sprite.LayerSetSprite((ghost.Value, sprite), i, new SpriteSpecifier.Rsi(rsi.Path, state.StateId.Name));
                     sprite.LayerSetShader(i, "unshaded");
                     _sprite.LayerSetVisible((ghost.Value, sprite), i, true);

@@ -95,7 +95,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtParamedic
 
-
 - type: loadout # goob
   id: ParamedMJ
   equipment:

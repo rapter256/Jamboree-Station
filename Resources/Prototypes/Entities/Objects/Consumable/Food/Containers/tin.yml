@@ -167,6 +167,7 @@
   - type: Tag
     tags:
     - Trash
+  - type: GoblinPreciousTrash # Frontier
 
 # Tins
 

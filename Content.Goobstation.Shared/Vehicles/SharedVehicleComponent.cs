@@ -8,6 +8,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using System.Numerics;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
@@ -77,6 +78,20 @@ public sealed partial class VehicleComponent : Component
     /// </summary>
     [DataField]
     public bool IsBroken  = false;
+
+    // Frontier: extra fields
+    [DataField]
+    public Vector2 SouthOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 NorthOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 EastOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 WestOffset = Vector2.Zero;
+    // End Frontier: extra fields
 }
 [Serializable, NetSerializable]
 public enum VehicleState : byte

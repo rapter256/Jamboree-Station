@@ -193,13 +193,11 @@ public sealed partial class ChangelingSystem
 
         PlayMeatySound(args.User, comp);
 
-        var dmg = new DamageSpecifier(_proto.Index(AbsorbedDamageGroup), 200);
+        var dmg = new DamageSpecifier(_proto.Index(AbsorbedDamageGroup),110); // Jamboree change, reduced from 200
         _damage.TryChangeDamage(target, dmg, true, false, targetPart: TargetBodyPart.All); // Shitmed Change
-        _blood.ChangeBloodReagent(target, "FerrochromicAcid");
         _blood.SpillAllSolutions(target);
 
         EnsureComp<AbsorbedComponent>(target);
-        EnsureComp<UnrevivableComponent>(target);
 
         var popup = string.Empty;
         var bonusChemicals = 0f;

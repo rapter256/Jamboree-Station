@@ -18,3 +18,6 @@ reagent-desc-torpedo-juice = The joys of drinking and unrestricted submarine war
 
 reagent-name-bees-knees = bee’s knees
 reagent-desc-bees-knees = BEEEEEEEEEEEEEEES!!! Has a stingy smell.
+
+reagent-name-the-madgob = the madgob
+reagent-desc-the-madgob = The Peaq of goblin drink mixing!

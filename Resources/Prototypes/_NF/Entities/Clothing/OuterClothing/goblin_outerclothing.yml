@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingOuterStorageToggleableBase
+  id: ClothingOuterCoatRobesGoblin
+  name: goblin robes
+  description: Traditional robes of goblinkind. Very regal.
+  components:
+  - type: GoblinClothingRobes
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
+  - type: ToggleableClothing
+    clothingPrototypes: # Goobstation change (clothingPrototype to clothingPrototypes)
+      head: ClothingHeadHatHoodGoblin
+  - type: Construction
+    graph: ClothingOuterCoatRobesGoblin
+    node: ClothingOuterCoatRobesGoblin
+
+- type: entity
+  parent: NFClothingOuterEVASuitBase
+  id: ClothingOuterEVASuitGoblin
+  name: goblin EVA suit
+  description: Traditional robes of goblinkind made EVA-capable. Very regal.
+  components:
+  - type: Tag
+    tags:
+    - SuitEVA
+    - WhitelistChameleon
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/Suits/goblin_eva_robes.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/Suits/goblin_eva_robes.rsi
+  - type: ToggleableClothing
+    clothingPrototypes:  # Goobstation change (clothingPrototype to clothingPrototypes)
+      head: ClothingHeadEVAHelmetGoblin
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+      toggleable-clothing: !type:Container
+  - type: StaticPrice
+    price: 65
+  - type: Construction
+    graph: ClothingOuterEVASuitGoblin
+    node: ClothingOuterEVASuitGoblin

@@ -141,6 +141,15 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtRoboticist
 
+- type: loadout
+  id: InterRoboticistJumpsuit #funky
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitInterRoboticist #funky
+
+- type: loadout
+  id: InterRoboticistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtInterRoboticist
 
 - type: loadout
   id: SeniorResearcherJumpsuit
@@ -226,6 +235,10 @@
   equipment:
     gloves: ClothingHandsGlovesRobohands
 
+- type: loadout
+  id: InterRobohandsGloves
+  equipment:
+    gloves: ClothingHandsGlovesInterRobohands
 
 # Shoes
 - type: loadout

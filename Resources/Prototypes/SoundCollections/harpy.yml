@@ -37,6 +37,10 @@
     - /Audio/Voice/Skeleton/skeleton_scream.ogg
     - /Audio/Voice/Reptilian/reptilian_scream.ogg
     - /Audio/_Floofstation/Voice/Avali/avali_scream.ogg
+    - /Audio/_NF/Voice/Goblin/goblin_scream_1.ogg # Frontier
+    - /Audio/_NF/Voice/Goblin/goblin_scream_2.ogg # Frontier
+    - /Audio/_NF/Voice/Goblin/goblin_scream_3.ogg # Frontier
+    - /Audio/_NF/Voice/Goblin/goblin_scream_4.ogg # Frontier
 
 
 - type: soundCollection
@@ -52,6 +56,8 @@
     - /Audio/Animals/ferret_happy.ogg
     - /Audio/Voice/Moth/moth_laugh.ogg
     - /Audio/_Floofstation/Voice/Avali/avali_laugh.ogg
+    - /Audio/_NF/Voice/Goblin/goblin_cackle_1.ogg # Frontier
+    - /Audio/_NF/Voice/Goblin/goblin_cackle_2.ogg # Frontier
 
 - type: soundCollection
   id: HarpyHisses

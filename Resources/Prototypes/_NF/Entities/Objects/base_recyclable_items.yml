@@ -1,0 +1,9 @@
+## Small
+- type: entity # Spray bottles, glue/lube tubes, plungers etc
+  id: RecyclableItemPlasticSmall
+  abstract: true
+  components:
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 25
+      RawScrap: 25

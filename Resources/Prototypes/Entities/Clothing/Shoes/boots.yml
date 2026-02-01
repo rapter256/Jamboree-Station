@@ -128,7 +128,12 @@
     sprite: Clothing/Shoes/Boots/jackboots.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.5
-
+  - type: Armor # Jamboree
+    modifiers:
+      coefficients: # buffed so salv's limbs stop falling off
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsSalvage

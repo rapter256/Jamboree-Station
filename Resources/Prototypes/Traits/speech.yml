@@ -28,6 +28,7 @@
       accent: dwarf
     - type: CheeseAccent # goob edit
     - type: BoganAccent # goob edit
+    - type: GoblinAccent # Frontier
 
 # 1 Cost
 

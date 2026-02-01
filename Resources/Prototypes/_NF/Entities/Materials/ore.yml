@@ -1,0 +1,162 @@
+#region Scrap ore
+- type: entity
+  parent: OreBase
+  id: ScrapOreTech
+  name: tech scrap chunks
+  description: Various bits of previously used machinery, now all non-functional. Needs to be processed to use.
+  suffix: Full
+  components:
+  - type: GoblinPreciousTrash # Frontier
+  - type: Stack
+    stackType: ScrapOreTech
+  - type: Sprite
+    layers:
+    - sprite: _NF/Objects/Materials/ore.rsi
+      state: scrapore
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      RawScrapTech: 100
+
+- type: entity
+  parent: OreBase
+  id: ScrapOre
+  name: scrap chunks
+  description: Smashed together pieces of spacecraft, all reduced to junk. Needs to be processed to use.
+  suffix: Full
+  components:
+  - type: GoblinPreciousTrash
+  - type: Stack
+    stackType: ScrapOre
+  - type: Sprite
+    layers:
+    - sprite: _NF/Objects/Materials/ore.rsi
+      state: scrapmaterials
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      RawScrap: 100
+
+#region Ore vein
+- type: ore
+  id: NFOreScrap
+  oreEntity: ScrapOreRandom3
+  minOreYield: 1
+  maxOreYield: 5
+
+#region Stacks
+- type: stack
+  id: ScrapOreTech
+  name: stack-tech-scrap-chunk
+  icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapore }
+  spawn: ScrapOreTech1
+  maxCount: 100
+
+- type: entity
+  parent: ScrapOreTech
+  id: ScrapOreTech1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: ScrapOreTech
+  id: ScrapOreTech3
+  suffix: 3
+  components:
+  - type: Stack
+    count: 3
+
+- type: entity
+  parent: ScrapOreTech
+  id: ScrapOreTech20
+  suffix: 20
+  components:
+  - type: Stack
+    count: 20
+
+- type: stack
+  id: ScrapOre
+  name: stack-scrap-chunk
+  icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapore }
+  spawn: ScrapOre1
+  maxCount: 100
+
+- type: entity
+  parent: ScrapOre
+  id: ScrapOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: ScrapOre
+  id: ScrapOre3
+  suffix: 3
+  components:
+  - type: Stack
+    count: 3
+
+- type: entity
+  parent: ScrapOre
+  id: ScrapOre20
+  suffix: 20
+  components:
+  - type: Stack
+    count: 20
+
+- type: entity
+  id: ScrapOre20RandomLowTech
+  categories: [HideSpawnMenu]
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - ScrapOre20
+    rarePrototypes:
+    - ScrapOreTech20
+    rareChance: 0.3
+
+- type: entity
+  id: ScrapOre20RandomHighTech
+  categories: [HideSpawnMenu]
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - ScrapOre20
+    rarePrototypes:
+    - ScrapOreTech20
+    rareChance: 0.6
+
+# region Materials
+- type: material
+  id: RawScrap
+  stackEntity: ScrapOre1
+  name: materials-raw-scrap
+  unit: materials-unit-chunk
+  icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapmaterials }
+  color: "#FFD700"
+  price: 0.02
+
+- type: material
+  id: RawScrapTech
+  stackEntity: ScrapOreTech1
+  name: materials-raw-scrap-tech
+  unit: materials-unit-chunk
+  icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapore }
+  color: "#478200" # circuitboard green
+  price: 0.02
+
+#region Random spawners
+# Ore spawner (random between material and tech scrap)
+- type: entity
+  id: ScrapOreRandom3
+  categories: [HideSpawnMenu]
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - ScrapOre3
+    rarePrototypes:
+    - ScrapOreTech3
+    rareChance: 0.1

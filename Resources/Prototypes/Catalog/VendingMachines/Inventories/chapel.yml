@@ -43,16 +43,51 @@
     ClothingUniformJumpsuitMonasticRobeDark: 1
     ClothingUniformJumpsuitMonasticRobeLight: 1
     ClothingNeckStoleChaplain: 1
+    ClothingNeckScarfChaplainStoleOther: 1 #frontier
+    ClothingNeckCrucifix: 1 #frontier
     ClothingOuterHoodieChaplain: 1
     ClothingOuterHoodieBlack: 1
     ClothingHeadHatHoodNunHood: 1
     ClothingOuterNunRobe: 1
     ClothingHeadHatFez: 1
+    ClothingHeadHatKippah: 1 #frontier
     ClothingHeadHatPlaguedoctor: 1
     ClothingHeadHatWitch: 1
     ClothingHeadHatWitch1: 1
     ClothingOuterPlagueSuit: 1
     ClothingMaskPlague: 1
+    ClothingHeadHatVeil: 1 #imp
+    ClothingEyesChaplainBlindfold: 1 #imp
+    ClothingUniformSkirtClayshaper: 1 #imp
+    ClothingMaskClayshaper: 1 #imp
+    ClothingHeadHatDruid: 1 #imp
+    ClothingUniformSkirtDruid: 1 #imp
+    ClothingNeckDruid: 1 #imp
+    ClothingNeckDruidMantle: 1 #imp
+    ClothingHeadHatMoon: 1 #imp
+    ClothingUniformSkirtMoon: 1 #imp
+    ClothingOuterMoon: 1 #imp
+    ClothingHeadHatSun: 1 #imp
+    ClothingUniformSun: 1 #imp
+    ClothingNeckSun: 1 #imp
+    ClothingMaskFire: 1 #imp
+    ClothingHeadHatTidal: 1 #imp
+    ClothingUniformSkirtTidal: 1 #imp
+    ClothingNeckTidal: 1 #imp
+    ClothingMaskSilent: 1 #imp, moved out of contraband
+    ClothingOuterSilent: 1 #imp, moved out of contraband
+    ClothingNeckChaplainDragon: 1 #imp
+    ClothingUniformTech: 1 #imp
+    ClothingHeadTechPriest: 1 #Nyanotrasen
+    ClothingOuterRobeTechPriest: 1 #Nyanotrasen
+    ClothingHeadHatPilgrim: 1 #frontier
+    ClothingUniformJumpsuitChaplainPilgrimVest: 1 #frontier
+    ClothingHeadHatBishopMitre: 1 #frontier
+    ClothingOuterCoatBishop: 1 #frontier
+    ClothingHeadHatCardinal: 1 #frontier
+    ClothingOuterCoatCardinal: 1 #frontier
+    ClothingHeadHatWitchhunter: 1 #frontier
+    ClothingOuterCoatWitchHunter: 1 #frontier
     ClothingHeadsetService: 2
     BoxCandle: 2
     BoxCandleSmall: 2
@@ -76,3 +111,4 @@
     ClothingHeadHatHoodCulthood: 3
     ClothingShoesCult: 4
     BedsheetCult: 4
+

@@ -99,6 +99,7 @@
   - NanotrasenRepresentativeJumpsuit
   - NanotrasenRepresentativeBackpack
   - NanotrasenRepresentativeNeck
+  - NanotrasenRepresentativeOuter #frontier & jamboree
   - NanotrasenRepresentativeShoes
   - NanotrasenRepresentativeBelt
   - Glasses
@@ -174,8 +175,10 @@
   - ScientistShoes
   - ScientistPDA
   - Glasses
+  - Animals # Jamboree, parity with other roles
   - Survival
   - Trinkets
+  - Drip # Jamboree
   - GroupSpeciesBreathTool
   # Plasmaman
   - ScientistEnvirohelm

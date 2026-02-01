@@ -354,6 +354,7 @@
   id: FoodFrozenSnowconeTrash
   description: A crumpled paper cone used for an icy treat. Worthless.
   components:
+  - type: GoblinPreciousTrash # Frontier
   - type: Sprite
     sprite: Objects/Consumable/Food/frozen.rsi
     state: cone-trash
@@ -367,6 +368,7 @@
   id: FoodFrozenPopsicleTrash
   description: Once held a delicious treat. Now, 'tis barren.
   components:
+  - type: GoblinPreciousTrash # Frontier
   - type: Sprite
     sprite: Objects/Consumable/Food/frozen.rsi
     layers:

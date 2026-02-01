@@ -109,12 +109,10 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtQMTurtleneck
 
-
 - type: loadout
   id: QuartermasterFormalSuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitQMFormal
-
 
 - type: loadout # goob
   id: QuartermasterMJ
@@ -133,7 +131,6 @@
   id: QuartermasterBeret
   equipment:
     head: ClothingHeadHatBeretQM
-
 
 # Neck
 - type: loadout

@@ -27,6 +27,11 @@
     ClothingUniformJumpskirtEngineering: 3
     ClothingUniformJumpsuitEngineeringHazard: 3
     ClothingUniformJumpsuitCasualEngineer: 3 # Goobstation
+    ClothingUniformJumpsuitEngineeringElectrician: 3 #funky
+    ClothingUniformJumpsuitEngineeringTankTop: 3 #funky
+    ClothingUniformJumpsuitEngineeringCoveralls: 3 #funky
+    ClothingUniformJumpsuitEngineeringOveralls: 3 #funky
+    ClothingUniformJumpsuitEngineeringShirt: 3 #funky
     ClothingShoesColorBlack: 3
     ClothingOuterVestHazard: 3
     ClothingShoesBootsWork: 3
