@@ -19,10 +19,9 @@
   combos:
   - CQCConsecutive
   - CQCPressure
-  - CQCRestrain
   - CQCKick
   - CQCSlam
-
+  - CQCPunchShove
 - type: combo
   id: CQCSlam
   name: Slam
