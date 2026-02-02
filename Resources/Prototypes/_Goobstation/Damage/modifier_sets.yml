@@ -349,3 +349,8 @@
     Piercing: 5
     Heat: 3
     Structural: 3
+
+- type: damageModifierSet
+id: Arcfiend
+coefficients:
+  shock: 0.0
