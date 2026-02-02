@@ -47,17 +47,6 @@
   staminaDamage: 25
 
 - type: combo
-  id: CQCRestrain
-  name: Restrain
-  martialArtsForm: CloseQuartersCombat
-  attacks:
-  - Grab
-  - Grab
-  event: !type:CqcRestrainPerformedEvent
-  paralyzeTime: 10
-  staminaDamage: 30
-
-- type: combo
   id: CQCPressure
   name: Pressure
   martialArtsForm: CloseQuartersCombat
@@ -78,3 +67,15 @@
   event: !type:CqcConsecutivePerformedEvent
   extraDamage: 10
   staminaDamage: 70
+
+- type: combo
+  id: CQCPunchshove
+  name: Punch shove
+  martialArtsForm: CloseQuartersCombat
+  attacks:
+  - Harm 
+  - Harm
+  - Disarm
+  event: !type:CqcPunchshoveperformedevent 
+  extraDamage: 10
+  staminaDamage: 20
