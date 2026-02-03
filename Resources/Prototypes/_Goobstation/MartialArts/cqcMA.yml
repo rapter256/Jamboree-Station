@@ -1,1 +1,80 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aidenkrz <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Baptr0b0t <152836416+baptr0b0t@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 Lincoln McQueen <lincoln.mcqueen@gmail.com>
+# SPDX-FileCopyrightText: 2025 SX-7 <sn1.test.preria.2002@gmail.com>
+# SPDX-FileCopyrightText: 2025 gus <august.eymann@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
+- type: martialArt
+  id: CloseQuartersCombat
+  martialArtsForm: CloseQuartersCombat
+  roundstartCombos: CQCMoves
+
+- type: comboList
+  id: CQCMoves
+  combos:
+  - CQCConsecutive
+  - CQCPressure
+  - CQCKick
+  - CQCSlam
+  - CQCPunchShove
+- type: combo
+  id: CQCSlam
+  name: Slam
+  martialArtsForm: CloseQuartersCombat
+  attacks:
+  - Grab
+  - Harm
+  event: !type:CqcSlamPerformedEvent { }
+  extraDamage: 0 #
+  paralyzeTime: 12 # in seconds
+
+
+- type: combo
+  id: CQCKick
+  name: Kick
+  martialArtsForm: CloseQuartersCombat
+  attacks:
+  - Harm
+  - Harm
+  event: !type:CqcKickPerformedEvent
+  extraDamage: 0
+  staminaDamage: 25
+
+- type: combo
+  id: CQCPressure
+  name: Pressure
+  martialArtsForm: CloseQuartersCombat
+  attacks:
+  - Disarm
+  - Grab
+  event: !type:CqcPressurePerformedEvent
+  staminaDamage: 65
+
+- type: combo
+  id: CQCConsecutive
+  name: Consecutive
+  martialArtsForm: CloseQuartersCombat
+  attacks:
+  - Disarm
+  - Disarm
+  - Harm
+  event: !type:CqcConsecutivePerformedEvent
+  extraDamage: 0
+  staminaDamage: 70
+
+- type: combo
+  id: CQCPunchshove
+  name: Punch shove
+  martialArtsForm: CloseQuartersCombat
+  attacks:
+  - Harm 
+  - Harm
+  - Disarm
+  event: !type:CqcPunchshoveperformedevent 
+  extraDamage: 0
+  staminaDamage: 20
