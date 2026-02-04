@@ -620,3 +620,23 @@ Entries:
       message: Goblin Dumpsters are craftable now
   id: 70
   time: '2026-01-31T23:31:54.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Remove
+      message: >-
+        Temporarily removed Chibi from the map pool. The Engineers are hard at
+        work fixing it!
+    - type: Tweak
+      message: >-
+        Made most species able to be ERT! Apparently Goob had specism... very
+        cringe ngl...
+  id: 71
+  time: '2026-02-03T07:27:50.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Remove
+      message: >-
+        Removed the requirement of not being a Felinid to play NTR. Another
+        weird goob change undone...
+  id: 72
+  time: '2026-02-03T22:30:24.0000000+00:00'
