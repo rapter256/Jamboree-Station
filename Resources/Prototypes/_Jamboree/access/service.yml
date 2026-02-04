@@ -1,0 +1,9 @@
+- type: accessLevel
+  id: dojo
+  name: id-card-access-level-doo
+
+
+- type: accessGroup
+  id: Service
+  tags:
+  dojo
