@@ -6,9 +6,11 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using System.Numerics; // Frontier
 using Content.Goobstation.Shared.Vehicles;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
+using Robust.Shared.Graphics.RSI; // Frontier
 
 namespace Content.Goobstation.Client.Vehicles;
 
@@ -16,7 +18,8 @@ public sealed class VehicleSystem : SharedVehicleSystem
 {
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly IEyeManager _eye = default!;
-    [Dependency] private readonly SpriteSystem _sprite = default!;
+    [Dependency] private readonly SpriteSystem _sprites = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!; // Frontier
 
     public override void Initialize()
     {
@@ -25,52 +28,106 @@ public sealed class VehicleSystem : SharedVehicleSystem
         SubscribeLocalEvent<VehicleComponent, MoveEvent>(OnMove);
     }
 
-    private void OnAppearanceChange(Entity<VehicleComponent> ent, ref AppearanceChangeEvent args)
+    private void OnAppearanceChange(EntityUid uid, VehicleComponent comp, ref AppearanceChangeEvent args)
     {
-        if (args.Sprite == null
-            || !_appearance.TryGetData(ent, VehicleState.Animated, out bool animated)
-            || !TryComp<SpriteComponent>(ent, out var spriteComp))
+        if (args.Sprite == null)
             return;
 
-        SpritePos(ent);
-
-        if(!_sprite.TryGetLayer((ent,spriteComp),0,out var layer, false))
+        if (!_appearance.TryGetData<bool>(uid, VehicleState.Animated, out bool animated))
             return;
 
-        _sprite.LayerSetAutoAnimated(layer, animated);
+        if (!TryComp<SpriteComponent>(uid, out var spriteComp))
+            return;
+
+        SpritePos(uid, comp);
+        // Start Frontier - Handle AutoAnimate
+        if (!spriteComp.LayerMapTryGet(VehicleVisualLayers.AutoAnimate, out var layer))
+            layer = 0;
+        spriteComp.LayerSetAutoAnimated(layer, animated);
+        // End Frontier
     }
 
-    private void OnMove(Entity<VehicleComponent> ent, ref MoveEvent args)
+    private void OnMove(EntityUid uid, VehicleComponent component, ref MoveEvent args)
     {
-        SpritePos(ent);
+        SpritePos(uid, component);
     }
 
-    private void SpritePos(Entity<VehicleComponent> ent)
+    private void SpritePos(EntityUid uid, VehicleComponent comp)
     {
-        if (!TryComp<SpriteComponent>(ent, out var spriteComp)
-            || !_appearance.TryGetData(ent, VehicleState.DrawOver, out _))
+        if (!TryComp<SpriteComponent>(uid, out var spriteComp))
             return;
 
-        _sprite.SetDrawDepth((ent, spriteComp), (int)Content.Shared.DrawDepth.DrawDepth.Objects);
-
-        if (ent.Comp.RenderOver == VehicleRenderOver.None)
+        if (!_appearance.TryGetData<bool>(uid, VehicleState.DrawOver, out bool depth))
             return;
 
-        var dir = (Transform(ent).LocalRotation + _eye.CurrentEye.Rotation).GetCardinalDir();
-        var renderOverFlag = dir switch
+        spriteComp.DrawDepth = (int)Content.Shared.DrawDepth.DrawDepth.Objects;
+
+        if (comp.RenderOver == VehicleRenderOver.None)
+            return;
+
+        var eye = _eye.CurrentEye;
+        Direction vehicleDir = (Transform(uid).LocalRotation + eye.Rotation).GetCardinalDir();
+
+        VehicleRenderOver renderOver = (VehicleRenderOver)(1 << (int)vehicleDir);
+
+        if ((comp.RenderOver & renderOver) == renderOver)
         {
-            Direction.North => VehicleRenderOver.North,
-            Direction.NorthEast => VehicleRenderOver.NorthEast,
-            Direction.East => VehicleRenderOver.East,
-            Direction.SouthEast => VehicleRenderOver.SouthEast,
-            Direction.South => VehicleRenderOver.South,
-            Direction.SouthWest => VehicleRenderOver.SouthWest,
-            Direction.West => VehicleRenderOver.West,
-            Direction.NorthWest => VehicleRenderOver.NorthWest,
-            _ => VehicleRenderOver.None,
-        };
-
-        if ((ent.Comp.RenderOver & renderOverFlag) == renderOverFlag)
-            _sprite.SetDrawDepth((ent, spriteComp), (int) Content.Shared.DrawDepth.DrawDepth.OverMobs);
+            spriteComp.DrawDepth = (int)Content.Shared.DrawDepth.DrawDepth.OverMobs;
+        }
+        else
+        {
+            spriteComp.DrawDepth = (int)Content.Shared.DrawDepth.DrawDepth.Objects;
+        }
     }
+
+    // Start Frontier - Extra Offset fields
+    // Could potentially be merged into SpritePos but eh
+    public override void FrameUpdate(float frameTime)
+    {
+        base.FrameUpdate(frameTime);
+
+        var query = EntityQueryEnumerator<VehicleComponent, SpriteComponent>();
+        var eye = _eye.CurrentEye;
+        while (query.MoveNext(out var uid, out var vehicle, out var sprite))
+        {
+            var angle = _transform.GetWorldRotation(uid) + eye.Rotation;
+            if (angle < 0)
+                angle += 2 * Math.PI;
+            RsiDirection dir = SpriteComponent.Layer.GetDirection(RsiDirectionType.Dir4, angle);
+
+            Vector2 offset = Vector2.Zero;
+            if (vehicle.Driver != null)
+            {
+                switch (dir)
+                {
+                    case RsiDirection.South:
+                    default:
+                        offset = vehicle.SouthOffset;
+                        break;
+                    case RsiDirection.North:
+                        offset = vehicle.NorthOffset;
+                        break;
+                    case RsiDirection.East:
+                        offset = vehicle.EastOffset;
+                        break;
+                    case RsiDirection.West:
+                        offset = vehicle.WestOffset;
+                        break;
+                }
+            }
+
+            // Avoid recalculating a matrix if we can help it.
+            if (sprite.Offset != offset)
+                sprite.Offset = offset;
+        }
+    }
+    // End Frontier
 }
+
+// Start Frontier - Animate Vehicle Automatically
+public enum VehicleVisualLayers : byte
+{
+    /// Layer for the vehicle's wheels/jets/etc.
+    AutoAnimate,
+}
+// End Frontier

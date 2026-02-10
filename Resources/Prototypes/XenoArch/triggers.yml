@@ -249,6 +249,7 @@
     - AmmoniaBlood
     - ZombieBlood
     - BlackBlood # Goobstation
+    - GoblinBlood # Frontier
 
 - type: xenoArchTrigger
   id: TriggerThrow

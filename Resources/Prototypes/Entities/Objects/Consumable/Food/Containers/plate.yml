@@ -108,6 +108,7 @@
     tags:
     - Trash
   - type: SpaceGarbage
+  - type: GoblinPreciousTrash # Frontier
 
 # Small Plate
 

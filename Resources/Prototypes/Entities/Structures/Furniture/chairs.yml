@@ -523,6 +523,7 @@
   name: folding chair
   description: If you carry six of these you become the coolest kid at church.
   components:
+  - type: NFChairFolding # Frontier - for crafting graph
   - type: Rotatable
   - type: Sprite
     sprite: Structures/Furniture/folding_chair.rsi

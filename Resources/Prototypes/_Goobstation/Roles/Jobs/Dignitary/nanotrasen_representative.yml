@@ -104,10 +104,10 @@
       time: 180000  #50 hours
     - !type:AgeRequirement
       requiredAge: 21
-    - !type:SpeciesRequirement # Goob - None Felinid
-      inverted: true
-      species:
-      - Felinid
+    #- !type:SpeciesRequirement # Goob - None Felinid
+   #   inverted: true
+    #  species:
+    #  - Felinid #jamboree- no felinid's in these roles is just... stupid? plus it doesn't make sense for jambo
   weight: 20
   startingGear: NanotrasenRepresentativeGear
   icon: "JobIconNanotrasenRepresentative"

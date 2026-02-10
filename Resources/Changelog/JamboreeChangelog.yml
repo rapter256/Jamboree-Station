@@ -528,3 +528,123 @@ Entries:
       message: There is something in one of the maints halls of Chibi... Enjoy!
   id: 60
   time: '2026-01-22T22:44:50.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to barratry, box, and chloris
+    - type: Remove
+      message: Removed BSO from barratry, box and chloris
+  id: 61
+  time: '2026-01-23T03:02:48.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to cluster, delta, and fland
+    - type: Remove
+      message: Removed BSO from cluster, delta, and fland
+  id: 62
+  time: '2026-01-25T20:19:46.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to kettle, leonid, and loop
+    - type: Remove
+      message: Removed BSO from kettle, leonid, and loop
+  id: 63
+  time: '2026-01-25T21:28:20.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR to marathon, meta, and oasis
+    - type: Remove
+      message: Removed BSO from marathon, meta, and oasis
+  id: 64
+  time: '2026-01-25T21:41:58.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to omega, origin, and packed
+    - type: Remove
+      message: Removed BSO from omega, origin, and packed
+  id: 65
+  time: '2026-01-25T22:01:10.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: Added NTR spawns to reach, saltern, and serpentcrest
+    - type: Remove
+      message: Removed BSO from reach, saltern, and serpentcrest
+  id: 66
+  time: '2026-01-26T01:58:06.0000000+00:00'
+- author: TehFlaminTaco
+  changes:
+    - type: Add
+      message: >-
+        Goblins have arrived from the Frontier Sector! Be sure to look out for
+        them hiding in your toilets and stealing your trash!
+  id: 67
+  time: '2026-01-31T00:50:55.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the Moth, Reptillian, and Voxes lore entries in the guidebook!
+        Mmmm... lore...
+    - type: Tweak
+      message: >-
+        Changed the Shadowkin guidebook entry to be accurate with them needing
+        to breath. Oops, hope you didn't suffocate!
+    - type: Add
+      message: >-
+        Added a lore section to the Tajaran and Feroxi guidebook entries!
+        Mmmm... lore.... 
+    - type: Tweak
+      message: >-
+        Changed the description of the bucket to be a TF2 reference. Was a
+        requested change!
+  id: 68
+  time: '2026-01-31T00:52:08.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Yowie have returned to the Jamboree Sector! Don't call them Sasquatches.
+        Don't.
+    - type: Tweak
+      message: The Goblin language has a new description.
+  id: 69
+  time: '2026-01-31T19:08:17.0000000+00:00'
+- author: TehFlaminTaco
+  changes:
+    - type: Add
+      message: Goblin Dumpsters are craftable now
+  id: 70
+  time: '2026-01-31T23:31:54.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Remove
+      message: >-
+        Temporarily removed Chibi from the map pool. The Engineers are hard at
+        work fixing it!
+    - type: Tweak
+      message: >-
+        Made most species able to be ERT! Apparently Goob had specism... very
+        cringe ngl...
+  id: 71
+  time: '2026-02-03T07:27:50.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Remove
+      message: >-
+        Removed the requirement of not being a Felinid to play NTR. Another
+        weird goob change undone...
+  id: 72
+  time: '2026-02-03T22:30:24.0000000+00:00'
+- author: TehFlaminTaco
+  changes:
+    - type: Fix
+      message: >-
+        Goblins now spawn with Survival Kits, extending their average lifespan
+        by SEVERAL minutes.
+  id: 73
+  time: '2026-02-05T05:50:02.0000000+00:00'

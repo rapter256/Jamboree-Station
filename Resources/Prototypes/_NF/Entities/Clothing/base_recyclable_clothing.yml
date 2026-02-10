@@ -1,0 +1,13 @@
+# Clothes
+- type: entity # Gloves, boots, hats
+  id: RecyclableItemClothSmall
+  abstract: true
+  components:
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 50
+  - type: Butcherable # Yields ~30% more if it rounds to whole up
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 1

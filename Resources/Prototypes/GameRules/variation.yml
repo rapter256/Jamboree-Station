@@ -123,6 +123,7 @@
     reagents:
     - Blood
     - CopperBlood
+    - GoblinBlood # Frontier
     - Slime
   - quantity: 25
     weight: 1

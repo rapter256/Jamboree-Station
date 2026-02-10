@@ -11,7 +11,6 @@
 using System.Numerics;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
 namespace Content.Goobstation.Shared.Vehicles;
@@ -43,7 +42,7 @@ public sealed partial class VehicleComponent : Component
     /// Will the vehicle move when a driver buckles
     /// </summary>
     [DataField]
-    public bool EngineRunning;
+    public bool EngineRunning = false;
 
     /// <summary>
     /// What sound to play when the driver presses the horn action (plays once)
@@ -73,12 +72,26 @@ public sealed partial class VehicleComponent : Component
     /// prevent removal of the key when there is a driver
     /// </summary>
     [DataField]
-    public bool PreventEjectOfKey = true;
-
+    public bool PreventEjectOfKey  = true;
     /// <summary>
     /// if the Vehicle is broken
     /// </summary>
     [DataField]
+    public bool IsBroken  = false;
+
+    // Frontier: extra fields
+    [DataField]
+    public Vector2 SouthOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 NorthOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 EastOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 WestOffset = Vector2.Zero;
+    // End Frontier: extra fields
     public bool IsBroken;
 
     /// <summary>
